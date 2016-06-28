@@ -16,6 +16,7 @@
 		749A8ACC1D223F70001FA3A2 /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ACB1D223F70001FA3A2 /* Staircase.swift */; };
 		749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ACD1D224411001FA3A2 /* TimeConversion.swift */; };
 		749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD21D225674001FA3A2 /* AngryProfessor.swift */; };
+		749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		749A8ACD1D224411001FA3A2 /* TimeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 		749A8AD01D224624001FA3A2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = HackerRank/MyPlayground.playground; sourceTree = "<group>"; };
 		749A8AD21D225674001FA3A2 /* AngryProfessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
+		749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day0HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		749A8AB71D2235B7001FA3A2 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				749A8AD41D22B81F001FA3A2 /* 30DaysOfCode */,
 				749A8AD11D22564F001FA3A2 /* Implementation */,
 				749A8ACF1D224416001FA3A2 /* Warmup */,
 				749A8AB81D2235B7001FA3A2 /* main.swift */,
@@ -102,6 +105,14 @@
 				749A8AD21D225674001FA3A2 /* AngryProfessor.swift */,
 			);
 			path = Implementation;
+			sourceTree = "<group>";
+		};
+		749A8AD41D22B81F001FA3A2 /* 30DaysOfCode */ = {
+			isa = PBXGroup;
+			children = (
+				749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */,
+			);
+			path = 30DaysOfCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */,
+				749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */,
 				749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */,
 				749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */,
 				749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */,
