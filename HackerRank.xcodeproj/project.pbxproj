@@ -14,6 +14,7 @@
 		749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */; };
 		749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC91D223BE5001FA3A2 /* PlusMinus.swift */; };
 		749A8ACC1D223F70001FA3A2 /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ACB1D223F70001FA3A2 /* Staircase.swift */; };
+		749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ACD1D224411001FA3A2 /* TimeConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 		749A8AC91D223BE5001FA3A2 /* PlusMinus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusMinus.swift; sourceTree = "<group>"; };
 		749A8ACB1D223F70001FA3A2 /* Staircase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
+		749A8ACD1D224411001FA3A2 /* TimeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,15 +71,24 @@
 		749A8AB71D2235B7001FA3A2 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				749A8ACF1D224416001FA3A2 /* Warmup */,
 				749A8AB81D2235B7001FA3A2 /* main.swift */,
+			);
+			path = HackerRank;
+			sourceTree = "<group>";
+		};
+		749A8ACF1D224416001FA3A2 /* Warmup */ = {
+			isa = PBXGroup;
+			children = (
 				749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */,
 				749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */,
 				749A8AC51D223A06001FA3A2 /* AVeryBigSum.swift */,
 				749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */,
 				749A8AC91D223BE5001FA3A2 /* PlusMinus.swift */,
 				749A8ACB1D223F70001FA3A2 /* Staircase.swift */,
+				749A8ACD1D224411001FA3A2 /* TimeConversion.swift */,
 			);
-			path = HackerRank;
+			path = Warmup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */,
 				749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */,
 				749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */,
+				749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */,
 				749A8ACC1D223F70001FA3A2 /* Staircase.swift in Sources */,
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
 				749A8AB91D2235B7001FA3A2 /* main.swift in Sources */,
