@@ -11,6 +11,7 @@
 		749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */; };
 		749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */; };
 		749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC51D223A06001FA3A2 /* AVeryBigSum.swift */; };
+		749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolveMeFirst.swift; sourceTree = "<group>"; };
 		749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArraySum.swift; sourceTree = "<group>"; };
 		749A8AC51D223A06001FA3A2 /* AVeryBigSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVeryBigSum.swift; sourceTree = "<group>"; };
+		749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */,
 				749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */,
 				749A8AC51D223A06001FA3A2 /* AVeryBigSum.swift */,
+				749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */,
 				749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */,
 				749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */,
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
