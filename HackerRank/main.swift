@@ -8,4 +8,5 @@
 
 import Foundation
 
-let h = SolveMeFirst()
+//let h = SolveMeFirst()
+let h = SimpleArraySum()
