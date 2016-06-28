@@ -14,4 +14,5 @@
 //let h = Staircase()
 //let h = TimeConversion()
 //let h = AngryProfessor()
-let h = Day0HelloWorld()
+//let h = Day0HelloWorld()
+let h = Day1DataTypes()

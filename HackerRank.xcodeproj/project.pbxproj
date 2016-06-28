@@ -17,6 +17,7 @@
 		749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ACD1D224411001FA3A2 /* TimeConversion.swift */; };
 		749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD21D225674001FA3A2 /* AngryProfessor.swift */; };
 		749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */; };
+		749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,7 @@
 		749A8AD01D224624001FA3A2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = HackerRank/MyPlayground.playground; sourceTree = "<group>"; };
 		749A8AD21D225674001FA3A2 /* AngryProfessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day0HelloWorld.swift; sourceTree = "<group>"; };
+		749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1DataTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */,
+				749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */,
 				749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */,
 				749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */,
+				749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */,
 				749A8ACC1D223F70001FA3A2 /* Staircase.swift in Sources */,
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
 				749A8AB91D2235B7001FA3A2 /* main.swift in Sources */,
