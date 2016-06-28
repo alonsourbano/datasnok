@@ -39,6 +39,7 @@
 		749A8AC91D223BE5001FA3A2 /* PlusMinus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusMinus.swift; sourceTree = "<group>"; };
 		749A8ACB1D223F70001FA3A2 /* Staircase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Staircase.swift; sourceTree = "<group>"; };
 		749A8ACD1D224411001FA3A2 /* TimeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
+		749A8AD01D224624001FA3A2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = HackerRank/MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		749A8AAC1D2235B7001FA3A2 = {
 			isa = PBXGroup;
 			children = (
+				749A8AD01D224624001FA3A2 /* MyPlayground.playground */,
 				749A8AB71D2235B7001FA3A2 /* HackerRank */,
 				749A8AB61D2235B7001FA3A2 /* Products */,
 			);
@@ -247,6 +249,7 @@
 		749A8ABD1D2235B7001FA3A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -254,6 +257,7 @@
 		749A8ABE1D2235B7001FA3A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

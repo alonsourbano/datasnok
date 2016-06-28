@@ -13,4 +13,5 @@ import Foundation
 //let h = AVeryBigSum()
 //let h = DiagonalDifference()
 //let h = PlusMinus()
-let h = Staircase()
+//let h = Staircase()
+let h = TimeConversion()
