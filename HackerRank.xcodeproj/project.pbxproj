@@ -12,6 +12,7 @@
 		749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */; };
 		749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC51D223A06001FA3A2 /* AVeryBigSum.swift */; };
 		749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */; };
+		749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC91D223BE5001FA3A2 /* PlusMinus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleArraySum.swift; sourceTree = "<group>"; };
 		749A8AC51D223A06001FA3A2 /* AVeryBigSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVeryBigSum.swift; sourceTree = "<group>"; };
 		749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalDifference.swift; sourceTree = "<group>"; };
+		749A8AC91D223BE5001FA3A2 /* PlusMinus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusMinus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */,
 				749A8AC51D223A06001FA3A2 /* AVeryBigSum.swift */,
 				749A8AC71D223ABE001FA3A2 /* DiagonalDifference.swift */,
+				749A8AC91D223BE5001FA3A2 /* PlusMinus.swift */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */,
 				749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */,
+				749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */,
 				749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */,
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
 				749A8AB91D2235B7001FA3A2 /* main.swift in Sources */,

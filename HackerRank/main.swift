@@ -11,4 +11,5 @@ import Foundation
 //let h = SolveMeFirst()
 //let h = SimpleArraySum()
 //let h = AVeryBigSum()
-let h = DiagonalDifference()
+//let h = DiagonalDifference()
+let h = PlusMinus()

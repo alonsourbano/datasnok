@@ -2,4 +2,118 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HackerRank/PlusMinus.swift"
+            timestampString = "488783320.886761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "init()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackerRank.PlusMinus.init () -&gt; HackerRank.PlusMinus"
+                  moduleName = "HackerRank"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Rauenstein/Users/vla/Xcode/HackerRank/HackerRank/PlusMinus.swift"
+                  timestampString = "488783330.296899"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "2573">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackerRank.PlusMinus.(init () -&gt; HackerRank.PlusMinus).(closure #2)"
+                  moduleName = "HackerRank"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Rauenstein/Users/vla/Xcode/HackerRank/HackerRank/PlusMinus.swift"
+                  timestampString = "488783330.29919"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HackerRank/PlusMinus.swift"
+            timestampString = "488783357.733595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "init()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackerRank.PlusMinus.init () -&gt; HackerRank.PlusMinus"
+                  moduleName = "HackerRank"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Rauenstein/Users/vla/Xcode/HackerRank/HackerRank/PlusMinus.swift"
+                  timestampString = "488783357.736225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2873">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackerRank.PlusMinus.(init () -&gt; HackerRank.PlusMinus).(closure #3)"
+                  moduleName = "HackerRank"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Rauenstein/Users/vla/Xcode/HackerRank/HackerRank/PlusMinus.swift"
+                  timestampString = "488783357.736533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HackerRank/PlusMinus.swift"
+            timestampString = "488783380.24904"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "init()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
