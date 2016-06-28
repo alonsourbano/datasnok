@@ -43,8 +43,6 @@ Sum across the secondary diagonal: 4 + 5 + 10 = 19
 Difference: |4 - 19| = 15
 */
 
-import Foundation
-
 class DiagonalDifference {
 	init() {
 		// read the integer n

@@ -22,8 +22,6 @@ Output Format
 Code that prints the sum calculated and returned by solveMeFirst is provided for you in the editor.
 */
 
-import Foundation
-
 class SolveMeFirst {
 	init() {
 		// read integers line by line

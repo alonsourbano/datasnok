@@ -14,4 +14,5 @@ import Foundation
 //let h = DiagonalDifference()
 //let h = PlusMinus()
 //let h = Staircase()
-let h = TimeConversion()
+//let h = TimeConversion()
+let h = AngryProfessor()

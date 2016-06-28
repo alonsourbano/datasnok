@@ -43,8 +43,6 @@ Explanation
 The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of .
 */
 
-import Foundation
-
 class Staircase {
 	init() {
 		// read the integer n

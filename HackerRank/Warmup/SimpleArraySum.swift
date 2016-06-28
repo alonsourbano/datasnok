@@ -30,8 +30,6 @@ Explanation
 We print the sum of the array's elements, which is: .
 */
 
-import Foundation
-
 class SimpleArraySum {
 	init() {
 		// number of elements

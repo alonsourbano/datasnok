@@ -38,8 +38,6 @@ There are  positive numbers,  negative numbers, and  zero in the array.
 The respective fractions of positive numbers, negative numbers and zeroes are ,  and , respectively.
 */
 
-import Foundation
-
 class PlusMinus {
 	init() {
 		// number of elements
