@@ -9,4 +9,5 @@
 import Foundation
 
 //let h = SolveMeFirst()
-let h = SimpleArraySum()
+//let h = SimpleArraySum()
+let h = AVeryBigSum()
