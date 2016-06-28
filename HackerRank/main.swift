@@ -12,4 +12,5 @@ import Foundation
 //let h = SimpleArraySum()
 //let h = AVeryBigSum()
 //let h = DiagonalDifference()
-let h = PlusMinus()
+//let h = PlusMinus()
+let h = Staircase()
