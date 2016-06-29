@@ -15,4 +15,5 @@
 //let h = TimeConversion()
 //let h = AngryProfessor()
 //let h = Day0HelloWorld()
-let h = Day1DataTypes()
+//let h = Day1DataTypes()
+let h = Day2Operators()
