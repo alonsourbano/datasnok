@@ -16,6 +16,7 @@
 		749A8ACC1D223F70001FA3A2 /* Staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ACB1D223F70001FA3A2 /* Staircase.swift */; };
 		749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ACD1D224411001FA3A2 /* TimeConversion.swift */; };
 		749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD21D225674001FA3A2 /* AngryProfessor.swift */; };
+		74BE400F1D2326E000D7963D /* SherlockAndTheBeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		749A8ACD1D224411001FA3A2 /* TimeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConversion.swift; sourceTree = "<group>"; };
 		749A8AD01D224624001FA3A2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = HackerRank/MyPlayground.playground; sourceTree = "<group>"; };
 		749A8AD21D225674001FA3A2 /* AngryProfessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
+		74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndTheBeast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				749A8AD21D225674001FA3A2 /* AngryProfessor.swift */,
+				74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */,
 				749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */,
+				74BE400F1D2326E000D7963D /* SherlockAndTheBeast.swift in Sources */,
 				749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */,
 				749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */,
 				749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */,
