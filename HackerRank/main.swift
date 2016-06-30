@@ -15,4 +15,5 @@ import Foundation
 //let h = PlusMinus()
 //let h = Staircase()
 //let h = TimeConversion()
-let h = AngryProfessor()
+DivisibleSumPairs()
+//let h = AngryProfessor()
