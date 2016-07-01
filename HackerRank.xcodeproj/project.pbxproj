@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0E9F1D240395004ED1CD /* Day2Operators.swift */; };
 		742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */; };
+		742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */; };
 		749A8AB91D2235B7001FA3A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AB81D2235B7001FA3A2 /* main.swift */; };
 		749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */; };
 		749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		742B0E9F1D240395004ED1CD /* Day2Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Operators.swift; sourceTree = "<group>"; };
 		742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3IntroToConditionalStatements.swift; sourceTree = "<group>"; };
+		742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairs.swift; sourceTree = "<group>"; };
 		749A8AB51D2235B7001FA3A2 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		749A8AB81D2235B7001FA3A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolveMeFirst.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		749A8AD11D22564F001FA3A2 /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */,
 				749A8AD21D225674001FA3A2 /* AngryProfessor.swift */,
 				74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */,
 			);
@@ -193,6 +196,7 @@
 				749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */,
 				749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */,
 				749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */,
+				742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */,
 				749A8ACC1D223F70001FA3A2 /* Staircase.swift in Sources */,
 				742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */,
 				742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */,
