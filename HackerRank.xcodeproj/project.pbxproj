@@ -22,6 +22,7 @@
 		749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */; };
 		749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */; };
 		74BE400F1D2326E000D7963D /* SherlockAndTheBeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */; };
+		74E254871D26AC08003F8CDA /* Day4ClassVsInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +55,7 @@
 		749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day0HelloWorld.swift; sourceTree = "<group>"; };
 		749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1DataTypes.swift; sourceTree = "<group>"; };
 		74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndTheBeast.swift; sourceTree = "<group>"; };
+		74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4ClassVsInstance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */,
 				742B0E9F1D240395004ED1CD /* Day2Operators.swift */,
 				742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */,
+				74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */,
 				749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */,
 				742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */,
+				74E254871D26AC08003F8CDA /* Day4ClassVsInstance.swift in Sources */,
 				749A8ACC1D223F70001FA3A2 /* Staircase.swift in Sources */,
 				742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */,
 				742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */,
