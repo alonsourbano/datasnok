@@ -25,4 +25,5 @@
 //Day1DataTypes()
 //Day2Operators()
 //Day3IntroToConditionalStatements()
-Day4ClassVsInstance()
+//Day4ClassVsInstance()
+Day5Loops()
