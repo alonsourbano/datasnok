@@ -55,12 +55,19 @@ For ,  is the only possible number. The number  appears five times in this numbe
 For ,  and all permutations of these digits are valid numbers; among them, the given number is the largest one.
 */
 
+import Foundation
+
 class SherlockAndTheBeast {
 	init() {
 		let t = Int(readLine()!)!
+		var s = 0
+		var y = 0
 		
 		for _ in 1 ... t {
-			let n = readLine()!.characters.split(" ").map{Int(String($0))!}
+			let n = Int(readLine()!)!
+			
+			s = 3
+			let p = pow(10, Double(y))
 		}
 	}
 }
