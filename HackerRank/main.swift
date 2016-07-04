@@ -27,4 +27,5 @@
 //Day3IntroToConditionalStatements()
 //Day4ClassVsInstance()
 //Day5Loops()
-Day6LetsReview()
+//Day6LetsReview()
+Day7Arrays()

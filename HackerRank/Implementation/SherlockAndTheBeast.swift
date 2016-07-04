@@ -66,8 +66,12 @@ class SherlockAndTheBeast {
 		for _ in 1 ... t {
 			let n = Int(readLine()!)!
 			
-			s = 3
-			let p = pow(10, Double(y))
+			repeat {
+				let p = pow(10, Double(y))
+				
+			} while true
+			
+			y += 1
 		}
 	}
 }
