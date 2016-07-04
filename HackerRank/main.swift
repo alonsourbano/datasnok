@@ -18,7 +18,7 @@
 // Implementation
 //DivisibleSumPairs()
 //AngryProfessor()
-//SherlockAndTheBeast()
+SherlockAndTheBeast()
 
 // 30 days of code
 //Day0HelloWorld()
@@ -28,4 +28,4 @@
 //Day4ClassVsInstance()
 //Day5Loops()
 //Day6LetsReview()
-Day7Arrays()
+//Day7Arrays()

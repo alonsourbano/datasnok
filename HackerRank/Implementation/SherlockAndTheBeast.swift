@@ -60,18 +60,32 @@ import Foundation
 class SherlockAndTheBeast {
 	init() {
 		let t = Int(readLine()!)!
-		var s = 0
-		var y = 0
 		
 		for _ in 1 ... t {
 			let n = Int(readLine()!)!
 			
+			var d = Int64([String](count: n, repeatedValue: "5").joinWithSeparator(""))!
+			let min = Int64([String](count: n, repeatedValue: "3").joinWithSeparator(""))!
+			var s = "-1"
+			var found = false
 			repeat {
-				let p = pow(10, Double(y))
+				s = String(d)
+				let three = s.characters.filter() { $0 == "3" }.count
+				let five = s.characters.filter() { $0 == "5" }.count
+				let other = s.characters.filter() { $0 != "5" && $0 != "3" }.count
 				
-			} while true
+				if three % 5 == 0 && five % 3 == 0 && other == 0 {
+					found = true
+				}
+				
+				d -= 1
+			} while !found && d >= 3 && d >= min
 			
-			y += 1
+			if found {
+				print(s)
+			} else {
+				print(-1)
+			}
 		}
 	}
 }

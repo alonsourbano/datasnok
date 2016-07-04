@@ -2,25 +2,26 @@
 
 import Cocoa
 
-var s = "12:40:22PM"
+let n = 11
 
-let t = s.substringFromIndex(s.endIndex.predecessor().predecessor())
-s = s.stringByReplacingOccurrencesOfString(t, withString: "")
-var split = s.componentsSeparatedByString(":")
-if t.uppercaseString == "PM" {
-	split[0] = String(Int(split[0])! + 12)
-	if split[0] == "24" {
-		split[0] = "12"
+var d = Int64([String](count: n, repeatedValue: "5").joinWithSeparator(""))!
+let min = Int64([String](count: n, repeatedValue: "3").joinWithSeparator(""))!
+var s = "-1"
+var found = false
+repeat {
+	s = String(d)
+	let three = s.characters.filter() { $0 == "3" }.count
+	let five = s.characters.filter() { $0 == "5" }.count
+	
+	if three % 5 == 0 && five % 3 == 0 {
+		found = true
 	}
+	
+	d -= 1
+} while !found && d > 0 && d > min
+
+if found {
+	print(s)
 } else {
-	if split[0] == "12" {
-		split[0] = "0"
-	}
+	print(-1)
 }
-for i in 0 ..< split.count {
-	if split[i].characters.count == 1 {
-		split[i] = "0\(split[i])"
-	}
-}
-s = split.joinWithSeparator(":")
-s
