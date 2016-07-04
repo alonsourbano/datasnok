@@ -64,27 +64,15 @@ class SherlockAndTheBeast {
 		for _ in 1 ... t {
 			let n = Int(readLine()!)!
 			
-			var d = Int64([String](count: n, repeatedValue: "5").joinWithSeparator(""))!
-			let min = Int64([String](count: n, repeatedValue: "3").joinWithSeparator(""))!
-			var s = "-1"
-			var found = false
-			repeat {
-				s = String(d)
-				let three = s.characters.filter() { $0 == "3" }.count
-				let five = s.characters.filter() { $0 == "5" }.count
-				let other = s.characters.filter() { $0 != "5" && $0 != "3" }.count
-				
-				if three % 5 == 0 && five % 3 == 0 && other == 0 {
-					found = true
-				}
-				
-				d -= 1
-			} while !found && d >= 3 && d >= min
+			var z = n
+			while z % 3 != 0 {
+				z -= 5
+			}
 			
-			if found {
-				print(s)
+			if z < 0 {
+				print("-1")
 			} else {
-				print(-1)
+				print([String](count: z, repeatedValue: "5").joinWithSeparator("") + [String](count: n - z, repeatedValue: "3").joinWithSeparator(""))
 			}
 		}
 	}
