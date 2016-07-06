@@ -2,7 +2,16 @@
 
 import Cocoa
 
-let n = 11
+// Enter your code here
+func factorial(n: Int) -> Int {
+	if n <= 1 {
+		return 1
+	}
+	
+	return n * factorial(n - 1)
+}
 
-var s = "555555"
-s -= "1"
+var n = 3
+n = factorial(n)
+print(n)
+
