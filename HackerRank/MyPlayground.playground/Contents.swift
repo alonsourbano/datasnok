@@ -1,17 +1,13 @@
 //: Playground - noun: a place where people can play
 
-import Cocoa
-
-// Enter your code here
-func factorial(n: Int) -> Int {
-	if n <= 1 {
-		return 1
+let n = 13
+let s = String(n, radix: 2)
+var o = ""
+var i = 0
+for c in s.characters {
+	if c == "0" {
+		break
 	}
-	
-	return n * factorial(n - 1)
+	i += 1
 }
-
-var n = 3
-n = factorial(n)
-print(n)
-
+i

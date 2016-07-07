@@ -21,7 +21,7 @@
 //SherlockAndTheBeast()
 
 // Strings
-SuperReducedString()
+//SuperReducedString()
 
 // 30 days of code
 //Day0HelloWorld()
@@ -34,3 +34,4 @@ SuperReducedString()
 //Day7Arrays()
 //Day8DictionariesAndMaps()
 //Day9Recursion()
+Day10BinaryNumbers()
