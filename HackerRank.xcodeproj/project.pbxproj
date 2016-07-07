@@ -28,6 +28,7 @@
 		74E2548D1D2A9794003F8CDA /* Day7Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E2548C1D2A9794003F8CDA /* Day7Arrays.swift */; };
 		74E254911D2C319C003F8CDA /* Day8DictionariesAndMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254901D2C319C003F8CDA /* Day8DictionariesAndMaps.swift */; };
 		74E254931D2D4CDB003F8CDA /* Day9Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254921D2D4CDB003F8CDA /* Day9Recursion.swift */; };
+		74E254991D2DBC46003F8CDA /* SuperReducedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254981D2DBC46003F8CDA /* SuperReducedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +67,7 @@
 		74E2548C1D2A9794003F8CDA /* Day7Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day7Arrays.swift; sourceTree = "<group>"; };
 		74E254901D2C319C003F8CDA /* Day8DictionariesAndMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day8DictionariesAndMaps.swift; sourceTree = "<group>"; };
 		74E254921D2D4CDB003F8CDA /* Day9Recursion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9Recursion.swift; sourceTree = "<group>"; };
+		74E254981D2DBC46003F8CDA /* SuperReducedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperReducedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,8 @@
 		749A8AB71D2235B7001FA3A2 /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				74E254941D2DBBBE003F8CDA /* Algorithms */,
 				749A8AD41D22B81F001FA3A2 /* 30DaysOfCode */,
-				749A8AD11D22564F001FA3A2 /* Implementation */,
-				749A8ACF1D224416001FA3A2 /* Warmup */,
 				749A8AB81D2235B7001FA3A2 /* main.swift */,
 			);
 			path = HackerRank;
@@ -146,6 +147,24 @@
 				74E254921D2D4CDB003F8CDA /* Day9Recursion.swift */,
 			);
 			path = 30DaysOfCode;
+			sourceTree = "<group>";
+		};
+		74E254941D2DBBBE003F8CDA /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				749A8ACF1D224416001FA3A2 /* Warmup */,
+				749A8AD11D22564F001FA3A2 /* Implementation */,
+				74E254951D2DBBF3003F8CDA /* Strings */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		74E254951D2DBBF3003F8CDA /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				74E254981D2DBC46003F8CDA /* SuperReducedString.swift */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +241,7 @@
 				74E2548B1D2978E6003F8CDA /* Day6LetsReview.swift in Sources */,
 				742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */,
 				742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */,
+				74E254991D2DBC46003F8CDA /* SuperReducedString.swift in Sources */,
 				74E254911D2C319C003F8CDA /* Day8DictionariesAndMaps.swift in Sources */,
 				74E2548D1D2A9794003F8CDA /* Day7Arrays.swift in Sources */,
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
