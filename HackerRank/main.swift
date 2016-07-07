@@ -19,6 +19,7 @@
 //DivisibleSumPairs()
 //AngryProfessor()
 //SherlockAndTheBeast()
+MinimumDistances()
 
 // Strings
 //SuperReducedString()
@@ -34,4 +35,4 @@
 //Day7Arrays()
 //Day8DictionariesAndMaps()
 //Day9Recursion()
-Day10BinaryNumbers()
+//Day10BinaryNumbers()
