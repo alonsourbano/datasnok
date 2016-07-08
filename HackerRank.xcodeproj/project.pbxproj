@@ -13,6 +13,8 @@
 		7435144A1D2EBE14004B2F12 /* Day10BinaryNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514491D2EBE14004B2F12 /* Day10BinaryNumbers.swift */; };
 		7435144C1D2F0752004B2F12 /* MinimumDistances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435144B1D2F0752004B2F12 /* MinimumDistances.swift */; };
 		7435144F1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435144E1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift */; };
+		743514521D2F4148004B2F12 /* SynchronousShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514511D2F4148004B2F12 /* SynchronousShopping.swift */; };
+		743514541D2FDF59004B2F12 /* Day112DArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514531D2FDF59004B2F12 /* Day112DArrays.swift */; };
 		749A8AB91D2235B7001FA3A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AB81D2235B7001FA3A2 /* main.swift */; };
 		749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */; };
 		749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */; };
@@ -53,6 +55,8 @@
 		743514491D2EBE14004B2F12 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
 		7435144B1D2F0752004B2F12 /* MinimumDistances.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumDistances.swift; sourceTree = "<group>"; };
 		7435144E1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroToTutorialChallenges.swift; sourceTree = "<group>"; };
+		743514511D2F4148004B2F12 /* SynchronousShopping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronousShopping.swift; sourceTree = "<group>"; };
+		743514531D2FDF59004B2F12 /* Day112DArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day112DArrays.swift; sourceTree = "<group>"; };
 		749A8AB51D2235B7001FA3A2 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		749A8AB81D2235B7001FA3A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolveMeFirst.swift; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 				74E254901D2C319C003F8CDA /* Day8DictionariesAndMaps.swift */,
 				74E254921D2D4CDB003F8CDA /* Day9Recursion.swift */,
 				743514491D2EBE14004B2F12 /* Day10BinaryNumbers.swift */,
+				743514531D2FDF59004B2F12 /* Day112DArrays.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */,
+				743514541D2FDF59004B2F12 /* Day112DArrays.swift in Sources */,
 				749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */,
 				74E254891D284B5A003F8CDA /* Day5Loops.swift in Sources */,
 				749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */,

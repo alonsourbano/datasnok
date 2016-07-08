@@ -25,7 +25,10 @@
 //SuperReducedString()
 
 // Sorting
-IntroToTutorialChallenges()
+//IntroToTutorialChallenges()
+
+// Graph theory
+//SynchronousShopping()
 
 // 30 days of code
 //Day0HelloWorld()
@@ -39,3 +42,4 @@ IntroToTutorialChallenges()
 //Day8DictionariesAndMaps()
 //Day9Recursion()
 //Day10BinaryNumbers()
+Day112DArrays()
