@@ -12,6 +12,7 @@
 		742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */; };
 		7435144A1D2EBE14004B2F12 /* Day10BinaryNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514491D2EBE14004B2F12 /* Day10BinaryNumbers.swift */; };
 		7435144C1D2F0752004B2F12 /* MinimumDistances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435144B1D2F0752004B2F12 /* MinimumDistances.swift */; };
+		7435144F1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435144E1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift */; };
 		749A8AB91D2235B7001FA3A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AB81D2235B7001FA3A2 /* main.swift */; };
 		749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */; };
 		749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */; };
@@ -51,6 +52,7 @@
 		742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairs.swift; sourceTree = "<group>"; };
 		743514491D2EBE14004B2F12 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
 		7435144B1D2F0752004B2F12 /* MinimumDistances.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumDistances.swift; sourceTree = "<group>"; };
+		7435144E1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroToTutorialChallenges.swift; sourceTree = "<group>"; };
 		749A8AB51D2235B7001FA3A2 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		749A8AB81D2235B7001FA3A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolveMeFirst.swift; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7435144D1D2F3D2F004B2F12 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				7435144E1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
 		749A8AAC1D2235B7001FA3A2 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 		74E254941D2DBBBE003F8CDA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				7435144D1D2F3D2F004B2F12 /* Sorting */,
 				749A8ACF1D224416001FA3A2 /* Warmup */,
 				749A8AD11D22564F001FA3A2 /* Implementation */,
 				74E254951D2DBBF3003F8CDA /* Strings */,
@@ -248,6 +259,7 @@
 				742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */,
 				742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */,
 				74E254991D2DBC46003F8CDA /* SuperReducedString.swift in Sources */,
+				7435144F1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift in Sources */,
 				74E254911D2C319C003F8CDA /* Day8DictionariesAndMaps.swift in Sources */,
 				7435144C1D2F0752004B2F12 /* MinimumDistances.swift in Sources */,
 				74E2548D1D2A9794003F8CDA /* Day7Arrays.swift in Sources */,

@@ -19,10 +19,13 @@
 //DivisibleSumPairs()
 //AngryProfessor()
 //SherlockAndTheBeast()
-MinimumDistances()
+//MinimumDistances()
 
 // Strings
 //SuperReducedString()
+
+// Sorting
+IntroToTutorialChallenges()
 
 // 30 days of code
 //Day0HelloWorld()
