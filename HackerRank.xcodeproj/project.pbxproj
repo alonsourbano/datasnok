@@ -178,11 +178,11 @@
 		74E254941D2DBBBE003F8CDA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				743514501D2F411D004B2F12 /* Graph theory */,
-				7435144D1D2F3D2F004B2F12 /* Sorting */,
 				749A8ACF1D224416001FA3A2 /* Warmup */,
 				749A8AD11D22564F001FA3A2 /* Implementation */,
 				74E254951D2DBBF3003F8CDA /* Strings */,
+				7435144D1D2F3D2F004B2F12 /* Sorting */,
+				743514501D2F411D004B2F12 /* Graph theory */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";

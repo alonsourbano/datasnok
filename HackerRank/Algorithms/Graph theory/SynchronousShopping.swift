@@ -109,14 +109,70 @@ class SynchronousShopping {
 		}
 		
 		// Send first cat
+		let genericCat = (time: 0, visited: Array<Int>(), current: 1)
 		var fishes = Array<Int>()
-		var visited = Array<Int>()
-		var current = 1
-		var time = (bigCat: 0, littleCat: 0)
-		while current != n {
-			visited.append(current)
+		var visited = [1]
+		var cat = (big: genericCat, little: genericCat)
+		while fishes.count < k {
+			while cat.big.current != n {
+				// Big cat attempts to buy fish in its current center
+				if let center = centers[cat.big.current] {
+					if fishes.count == 0 {
+						fishes = center
+					} else {
+						for c in center {
+							if fishes.indexOf(c) == nil {
+								fishes.append(c)
+							}
+						}
+					}
+				}
+				
+				// Big cat looks for another destination to move
+				if let road = roads[cat.big.current] {
+					var canMove = false
+					for r in road {
+						if visited.indexOf(r.vertex) == nil {
+							canMove = true
+							cat.big.current = r.vertex
+							cat.big.time += r.time
+							
+							if visited.indexOf(cat.big.current) == nil {
+								visited.append(cat.big.current)
+							}
+							
+							break
+						}
+					}
+					
+					if !canMove {
+						for r in road {
+							if r.vertex == n {
+								canMove = true
+								cat.big.current = r.vertex
+								cat.big.time += r.time
+								
+								if visited.indexOf(cat.big.current) == nil {
+									visited.append(cat.big.current)
+								}
+								
+								break
+							}
+						}
+					}
+					
+					if !canMove {
+						cat.big.current = road.first!.vertex
+						cat.big.time += road.first!.time
+						
+						if visited.indexOf(cat.big.current) == nil {
+							visited.append(cat.big.current)
+						}
+					}
+				}
+			}
 			
-			if let center = centers[current] {
+			if let center = centers[n] {
 				if fishes.count == 0 {
 					fishes = center
 				} else {
@@ -128,15 +184,69 @@ class SynchronousShopping {
 				}
 			}
 			
-			if let road = roads[current] {
-				for r in road {
-					if visited.indexOf(r.vertex) == nil {
-						current = r.vertex
-						time.bigCat += r.time
-						break
+			while cat.little.current != n {
+				// Little cat attempts to buy fish in its current center
+				if let center = centers[cat.little.current] {
+					if fishes.count == 0 {
+						fishes = center
+					} else {
+						for c in center {
+							if fishes.indexOf(c) == nil {
+								fishes.append(c)
+							}
+						}
+					}
+				}
+				
+				// Little cat looks for another destination to move
+				if let road = roads[cat.little.current] {
+					var canMove = false
+					for r in road {
+						if visited.indexOf(r.vertex) == nil {
+							canMove = true
+							cat.little.current = r.vertex
+							cat.little.time += r.time
+							
+							if visited.indexOf(cat.little.current) == nil {
+								visited.append(cat.little.current)
+							}
+							
+							break
+						}
+					}
+					
+					if !canMove {
+						for r in road {
+							if r.vertex == n {
+								canMove = true
+								cat.little.current = r.vertex
+								cat.little.time += r.time
+								
+								if visited.indexOf(cat.little.current) == nil {
+									visited.append(cat.little.current)
+								}
+								
+								break
+							}
+						}
+					}
+					
+					if !canMove {
+						cat.little.current = road.first!.vertex
+						cat.little.time += road.first!.time
+						
+						if visited.indexOf(cat.little.current) == nil {
+							visited.append(cat.little.current)
+						}
 					}
 				}
 			}
+		}
+		
+		if cat.big.time > cat.little.time {
+			print(cat.big.time)
+		} else {
+			print(cat.little.time)
 		}
 	}
 }
