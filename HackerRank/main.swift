@@ -25,7 +25,10 @@
 //SuperReducedString()
 
 // Sorting
-IntroToTutorialChallenges()
+//IntroToTutorialChallenges()
+
+// Graph theory
+SynchronousShopping()
 
 // 30 days of code
 //Day0HelloWorld()
