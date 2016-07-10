@@ -31,6 +31,7 @@
 		749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD21D225674001FA3A2 /* AngryProfessor.swift */; };
 		749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */; };
 		749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */; };
+		74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */; };
 		74BE400F1D2326E000D7963D /* SherlockAndTheBeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */; };
 		74E254871D26AC08003F8CDA /* Day4ClassVsInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */; };
 		74E254891D284B5A003F8CDA /* Day5Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254881D284B5A003F8CDA /* Day5Loops.swift */; };
@@ -80,6 +81,7 @@
 		749A8AD21D225674001FA3A2 /* AngryProfessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day0HelloWorld.swift; sourceTree = "<group>"; };
 		749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1DataTypes.swift; sourceTree = "<group>"; };
+		74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13AbstractClasses.swift; sourceTree = "<group>"; };
 		74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndTheBeast.swift; sourceTree = "<group>"; };
 		74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4ClassVsInstance.swift; sourceTree = "<group>"; };
 		74E254881D284B5A003F8CDA /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				743514491D2EBE14004B2F12 /* Day10BinaryNumbers.swift */,
 				743514531D2FDF59004B2F12 /* Day112DArrays.swift */,
 				74747A9A1D31A78A00938968 /* Day12Inheritance.swift */,
+				74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				74E2548D1D2A9794003F8CDA /* Day7Arrays.swift in Sources */,
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
 				749A8AB91D2235B7001FA3A2 /* main.swift in Sources */,
+				74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */,
 				7435144A1D2EBE14004B2F12 /* Day10BinaryNumbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
