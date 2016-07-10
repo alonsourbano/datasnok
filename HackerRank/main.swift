@@ -26,7 +26,8 @@
 
 // Sorting
 //IntroToTutorialChallenges()
-InsertionSortPart1()
+//InsertionSortPart1()
+InsertionSortPart2()
 
 // Graph theory
 //SynchronousShopping()

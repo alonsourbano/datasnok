@@ -64,7 +64,7 @@ class InsertionSortPart1 {
 	init() {
 		let _ = Int(readLine()!)! // n
 		let arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
-		self.insertionSort(arr)
+		insertionSort(arr)
 	}
 	
 	func insertionSort(arr: Array<Int>) {
