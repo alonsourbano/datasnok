@@ -30,6 +30,9 @@
 // Graph theory
 //SynchronousShopping()
 
+// Dynamic programming
+//TheMaximumSubarray()
+
 // 30 days of code
 //Day0HelloWorld()
 //Day1DataTypes()
@@ -42,4 +45,5 @@
 //Day8DictionariesAndMaps()
 //Day9Recursion()
 //Day10BinaryNumbers()
-Day112DArrays()
+//Day112DArrays()
+Day12Inheritance()

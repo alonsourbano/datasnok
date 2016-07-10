@@ -74,7 +74,7 @@ Because , our code should print that the person is old. Three years pass and the
 
 import Foundation
 
-class Person {
+class Person_1 {
 	var age: Int = 0
 	
 	init (initialAge: Int) {
@@ -111,7 +111,7 @@ class Day4ClassVsInstance {
 		
 		while t > 0 {
 			let age = Int(readLine(stripNewline: true)!)!
-			let p = Person(initialAge: age)
+			let p = Person_1(initialAge: age)
 			p.amIOld()
 			
 			for _ in 1 ... 3 {
