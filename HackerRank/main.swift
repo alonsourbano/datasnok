@@ -26,6 +26,7 @@
 
 // Sorting
 //IntroToTutorialChallenges()
+InsertionSortPart1()
 
 // Graph theory
 //SynchronousShopping()
@@ -46,4 +47,4 @@
 //Day9Recursion()
 //Day10BinaryNumbers()
 //Day112DArrays()
-Day12Inheritance()
+//Day12Inheritance()
