@@ -27,13 +27,13 @@
 // Sorting
 //IntroToTutorialChallenges()
 //InsertionSortPart1()
-InsertionSortPart2()
+//InsertionSortPart2()
 
 // Graph theory
 //SynchronousShopping()
 
 // Dynamic programming
-//TheMaximumSubarray()
+TheMaximumSubarray()
 
 // 30 days of code
 //Day0HelloWorld()

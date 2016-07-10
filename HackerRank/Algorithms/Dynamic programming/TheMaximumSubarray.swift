@@ -51,82 +51,30 @@ For the max sum of a not-necessarily-contiguous group of elements, simply add al
 */
 
 class TheMaximumSubarray {
-	var cache = Dictionary<Int, Dictionary<Int, Int>>()
-	
 	init() {
 		let t = Int(readLine()!)!
 		
-		for tc in 1 ... t {
-			print("Test case \(tc)")
-			let n = Int(readLine()!)! // n
+		for _ in 1 ... t {
+			_ = Int(readLine()!)! // n
 			let input = readLine()
 			let arr = input!.characters.split(" ").map({ Int(String($0))! })
-			print("Array of length \(arr.count) and defined \(n)")
-			var maxContiguous = -100000002
+			var maxEndingHere = arr.first!
+			var maxSoFar = arr.first!
 			
-			for i in 0 ..< arr.count {
-				cache[i] = Dictionary<Int, Int>()
+			for i in 1 ..< arr.count {
+				maxEndingHere = max(arr[i], maxEndingHere + arr[i])
+				maxSoFar = max(maxSoFar, maxEndingHere)
+			}
+
+			let possitives = arr.filter({ $0 >= 0 })
+			var maxUncontiguous: Int!
+			if possitives.count > 0 {
+				maxUncontiguous = possitives.reduce(0, combine: +)
+			} else {
+				maxUncontiguous = arr.maxElement()
 			}
 			
-			for _i in 0 ..< arr.count - 1 {
-				if let c_i = cache[_i] {
-					if let _ = c_i[_i + 1] {
-						continue
-					}
-				}
-				
-				let s = arr[_i] + arr[_i + 1]
-				cache[_i]![_i + 1] = s
-			}
-			
-			for i in 0 ..< arr.count - 1 {
-				for j in (i + 1 ..< arr.count).reverse() {
-					let m = maxSumBottom(arr, i: i, j: j)
-					if m > maxContiguous {
-						maxContiguous = m
-					}
-				}
-			}
-			
-			let maxUncontiguous = arr.filter({ $0 > 0 }).reduce(0, combine: +)
-			print("\(maxContiguous) \(maxUncontiguous)")
+			print("\(maxSoFar) \(maxUncontiguous)")
 		}
-	}
-	
-	func maxSumTop(a: Array<Int>, i: Int, j: Int) -> Int {
-		if let c_i = cache[i] {
-			if let c_j = c_i[j] {
-				return c_j
-			}
-		}
-		
-		if cache[i] == nil {
-			cache[i] = Dictionary<Int, Int>()
-		}
-		
-		if i + 1 == j {
-			let o = a[i] + a[j]
-			
-			cache[i]![j] = o
-			return o
-		}
-		
-		let o = maxSumTop(a, i: i, j: j - 1) + a[j]
-		cache[i]![j] = o
-		return o
-	}
-	
-	func maxSumBottom(a: Array<Int>, i: Int, j: Int) -> Int {
-		if let c_i = cache[i] {
-			if let c_j = c_i[j] {
-				return c_j
-			}
-		}
-		
-		for x in (i + 2 ... j).reverse() {
-			cache[i]![x] = maxSumTop(a, i: i, j: x - 1) + a[x]
-		}
-		
-		return cache[i]![j]!
 	}
 }
