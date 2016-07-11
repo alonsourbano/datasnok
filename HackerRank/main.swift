@@ -6,47 +6,54 @@
 //  Copyright © 2016 Vladimir Urbano. All rights reserved.
 //
 
-// Warm up
-//SolveMeFirst()
-//SimpleArraySum()
-//AVeryBigSum()
-//DiagonalDifference()
-//PlusMinus()
-//Staircase()
-//TimeConversion()
-
-// Implementation
-//DivisibleSumPairs()
-//AngryProfessor()
-//SherlockAndTheBeast()
-//MinimumDistances()
-
-// Strings
-//SuperReducedString()
-
-// Sorting
-//IntroToTutorialChallenges()
-//InsertionSortPart1()
-//InsertionSortPart2()
-
-// Graph theory
-//SynchronousShopping()
-
-// Dynamic programming
-//TheMaximumSubarray()
-
-// 30 days of code
-//Day0HelloWorld()
-//Day1DataTypes()
-//Day2Operators()
-//Day3IntroToConditionalStatements()
-//Day4ClassVsInstance()
-//Day5Loops()
-//Day6LetsReview()
-//Day7Arrays()
-//Day8DictionariesAndMaps()
-//Day9Recursion()
-//Day10BinaryNumbers()
-//Day112DArrays()
-//Day12Inheritance()
-//Day13AbstractClasses()
+switch Process.arguments[1] {
+	// Warm up
+case "SolveMeFirst" : _ = SolveMeFirst()
+case "SimpleArraySum" : _ = SimpleArraySum()
+case "AVeryBigSum" : _ = AVeryBigSum()
+case "DiagonalDifference" : _ = DiagonalDifference()
+case "PlusMinus" : _ = PlusMinus()
+case "Staircase" : _ = Staircase()
+case "TimeConversion" : _ = TimeConversion()
+	
+	// Implementation
+case "DivisibleSumPairs" : _ = DivisibleSumPairs()
+case "AngryProfessor" : _ = AngryProfessor()
+case "SherlockAndTheBeast" : _ = SherlockAndTheBeast()
+case "MinimumDistances" : _ = MinimumDistances()
+	
+	// Strings
+case "SuperReducedString" : _ = SuperReducedString()
+	
+	// Sorting
+case "IntroToTutorialChallenges" : _ = IntroToTutorialChallenges()
+case "InsertionSortPart1" : _ = InsertionSortPart1()
+case "InsertionSortPart2" : _ = InsertionSortPart2()
+	
+	// Graph theory
+case "SynchronousShopping" : _ = SynchronousShopping()
+case "SnakesAndLaddersTheQuickestWayUp" : _ = SnakesAndLaddersTheQuickestWayUp()
+	
+	// Dynamic programming
+case "TheMaximumSubarray" : _ = TheMaximumSubarray()
+	
+	// 30 days of code
+case "Day0HelloWorld" : _ = Day0HelloWorld()
+case "Day1DataTypes" : _ = Day1DataTypes()
+case "Day2Operators" : _ = Day2Operators()
+case "Day3IntroToConditionalStatements" : _ = Day3IntroToConditionalStatements()
+case "Day4ClassVsInstance" : _ = Day4ClassVsInstance()
+case "Day5Loops" : _ = Day5Loops()
+case "Day6LetsReview" : _ = Day6LetsReview()
+case "Day7Arrays" : _ = Day7Arrays()
+case "Day8DictionariesAndMaps" : _ = Day8DictionariesAndMaps()
+case "Day9Recursion" : _ = Day9Recursion()
+case "Day10BinaryNumbers" : _ = Day10BinaryNumbers()
+case "Day112DArrays" : _ = Day112DArrays()
+case "Day12Inheritance" : _ = Day12Inheritance()
+case "Day13AbstractClasses" : _ = Day13AbstractClasses()
+case "Day14Scope" : _ = Day14Scope()
+	
+default :
+	print("Error")
+}

@@ -32,6 +32,7 @@
 		749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */; };
 		749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */; };
 		74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */; };
+		74B3640E1D33DAFC008776FF /* Day14Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3640D1D33DAFC008776FF /* Day14Scope.swift */; };
 		74BE400F1D2326E000D7963D /* SherlockAndTheBeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */; };
 		74E254871D26AC08003F8CDA /* Day4ClassVsInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */; };
 		74E254891D284B5A003F8CDA /* Day5Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254881D284B5A003F8CDA /* Day5Loops.swift */; };
@@ -82,6 +83,7 @@
 		749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day0HelloWorld.swift; sourceTree = "<group>"; };
 		749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1DataTypes.swift; sourceTree = "<group>"; };
 		74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13AbstractClasses.swift; sourceTree = "<group>"; };
+		74B3640D1D33DAFC008776FF /* Day14Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Scope.swift; sourceTree = "<group>"; };
 		74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndTheBeast.swift; sourceTree = "<group>"; };
 		74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4ClassVsInstance.swift; sourceTree = "<group>"; };
 		74E254881D284B5A003F8CDA /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				743514531D2FDF59004B2F12 /* Day112DArrays.swift */,
 				74747A9A1D31A78A00938968 /* Day12Inheritance.swift */,
 				74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */,
+				74B3640D1D33DAFC008776FF /* Day14Scope.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				749A8AC81D223ABE001FA3A2 /* DiagonalDifference.swift in Sources */,
 				743514541D2FDF59004B2F12 /* Day112DArrays.swift in Sources */,
+				74B3640E1D33DAFC008776FF /* Day14Scope.swift in Sources */,
 				749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */,
 				74E254891D284B5A003F8CDA /* Day5Loops.swift in Sources */,
 				749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */,
