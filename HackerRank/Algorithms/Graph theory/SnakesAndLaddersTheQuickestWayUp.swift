@@ -100,7 +100,7 @@ class SnakesAndLaddersTheQuickestWayUp {
 				snakes.append((start: start, end: end))
 			}
 			
-			var matrix = Array(count: 101, repeatedValue: (node: 0, distance: -1, visited: false, parent: -1, adjacents: Array(count: 7, repeatedValue: 0)))
+			var matrix = Array(count: 101, repeatedValue: (node: 0, distance: -1, visited: false, parent: -1, adjacents: Array(count: 7, repeatedValue: 0), parents: Array<Int>()))
 			for square in 1 ..< matrix.count {
 				matrix[square].node = square
 				
@@ -124,75 +124,29 @@ class SnakesAndLaddersTheQuickestWayUp {
 						movement = snakes[i].end
 					}
 					
-					matrix[square].adjacents[die] = movement
-				}
-			}
-			
-			var root = matrix[100]
-			root.distance = 0
-			let q = Queue()
-			q.enqueue(root.node)
-			
-			while !q.isEmpty {
-				let current = q.dequeue()!
-				for i in 1 ..< matrix.count {
-					let adjacents = matrix[i].adjacents.filter({ $0 == current.item! })
-					for a in adjacents {
-						if matrix[a].distance == -1 {
-							matrix[a].distance = matrix[current.item!].distance + 1
-							matrix[a].parent = matrix[current.item!].node
-							q.enqueue(a)
-						}
+					if movement <= 100 {
+						matrix[square].adjacents[die] = movement
+						matrix[movement].parents.append(square)
 					}
 				}
 			}
 			
-			print(matrix[100].distance)
+			matrix[100].distance = 0
+			var q = Array<Int>()
+			q.insert(matrix[100].node, atIndex: 0)
+			
+			while !q.isEmpty {
+				let current = matrix[q.popLast()!]
+				for i in current.parents {
+					if matrix[i].distance == -1 {
+						matrix[i].distance = current.distance + 1
+						matrix[i].parent = current.node
+						q.insert(matrix[i].node, atIndex: 0)
+					}
+				}
+			}
+			
+			print(matrix[1].distance)
 		}
-	}
-}
-
-class Node {
-	var item: Int?
-	var next: Node?
-}
-
-class Queue {
-	private var front: Node?
-	private var back: Node?
-	
-	var isEmpty: Bool {
-		return self.front == nil
-	}
-	
-	func enqueue(item: Int) {
-		if self.isEmpty {
-			self.front = Node()
-			self.front?.item = item
-			self.front?.next = nil
-			self.back = self.front
-			return
-		}
-		
-		let newItem = Node()
-		newItem.item = item
-		newItem.next = self.back
-		self.back = newItem
-	}
-	
-	func dequeue() -> Node? {
-		if self.isEmpty {
-			return nil
-		}
-		
-		var current = self.back
-		while let next = current?.next?.next {
-			current = next
-		}
-		
-		let pop = self.front
-		current?.next = nil
-		self.front = current
-		return pop
 	}
 }

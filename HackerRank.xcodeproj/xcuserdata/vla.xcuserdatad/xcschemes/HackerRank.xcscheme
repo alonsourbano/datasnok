@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day14Scope"
+            argument = "SnakesAndLaddersTheQuickestWayUp"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
