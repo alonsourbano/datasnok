@@ -33,6 +33,7 @@
 		749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */; };
 		74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */; };
 		74B3640E1D33DAFC008776FF /* Day14Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3640D1D33DAFC008776FF /* Day14Scope.swift */; };
+		74B364151D344D52008776FF /* SherlockAndArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B364141D344D52008776FF /* SherlockAndArray.swift */; };
 		74BE400F1D2326E000D7963D /* SherlockAndTheBeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */; };
 		74E254871D26AC08003F8CDA /* Day4ClassVsInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */; };
 		74E254891D284B5A003F8CDA /* Day5Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254881D284B5A003F8CDA /* Day5Loops.swift */; };
@@ -84,6 +85,7 @@
 		749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1DataTypes.swift; sourceTree = "<group>"; };
 		74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13AbstractClasses.swift; sourceTree = "<group>"; };
 		74B3640D1D33DAFC008776FF /* Day14Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Scope.swift; sourceTree = "<group>"; };
+		74B364141D344D52008776FF /* SherlockAndArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndArray.swift; sourceTree = "<group>"; };
 		74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndTheBeast.swift; sourceTree = "<group>"; };
 		74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4ClassVsInstance.swift; sourceTree = "<group>"; };
 		74E254881D284B5A003F8CDA /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
@@ -206,6 +208,14 @@
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
 		};
+		74B364111D344D0D008776FF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				74B364141D344D52008776FF /* SherlockAndArray.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		74E254941D2DBBBE003F8CDA /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,8 +223,9 @@
 				749A8AD11D22564F001FA3A2 /* Implementation */,
 				74E254951D2DBBF3003F8CDA /* Strings */,
 				7435144D1D2F3D2F004B2F12 /* Sorting */,
-				743514551D301602004B2F12 /* Dynamic programming */,
+				74B364111D344D0D008776FF /* Search */,
 				743514501D2F411D004B2F12 /* Graph theory */,
+				743514551D301602004B2F12 /* Dynamic programming */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -318,6 +329,7 @@
 				749A8AB91D2235B7001FA3A2 /* main.swift in Sources */,
 				74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */,
 				7435144A1D2EBE14004B2F12 /* Day10BinaryNumbers.swift in Sources */,
+				74B364151D344D52008776FF /* SherlockAndArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "SnakesAndLaddersTheQuickestWayUp"
+            argument = "SherlockAndArray"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

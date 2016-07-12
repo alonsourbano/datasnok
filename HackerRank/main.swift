@@ -30,6 +30,9 @@ case "IntroToTutorialChallenges" : _ = IntroToTutorialChallenges()
 case "InsertionSortPart1" : _ = InsertionSortPart1()
 case "InsertionSortPart2" : _ = InsertionSortPart2()
 	
+	// Search
+case "SherlockAndArray" : _ = SherlockAndArray()
+	
 	// Graph theory
 case "SynchronousShopping" : _ = SynchronousShopping()
 case "SnakesAndLaddersTheQuickestWayUp" : _ = SnakesAndLaddersTheQuickestWayUp()
