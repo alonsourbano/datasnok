@@ -56,6 +56,7 @@ case "Day112DArrays" : _ = Day112DArrays()
 case "Day12Inheritance" : _ = Day12Inheritance()
 case "Day13AbstractClasses" : _ = Day13AbstractClasses()
 case "Day14Scope" : _ = Day14Scope()
+case "Day15LinkedList" : _ = Day15LinkedList()
 	
 default :
 	print("Error")
