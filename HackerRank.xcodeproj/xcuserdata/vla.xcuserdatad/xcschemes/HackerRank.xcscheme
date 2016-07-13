@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day15LinkedList"
+            argument = "Day16ExceptionsStringToInteger"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
