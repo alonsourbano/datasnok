@@ -36,6 +36,7 @@
 		74B364151D344D52008776FF /* SherlockAndArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B364141D344D52008776FF /* SherlockAndArray.swift */; };
 		74B364171D355C87008776FF /* Day15LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B364161D355C87008776FF /* Day15LinkedList.swift */; };
 		74BD09A91D36785800515F7F /* Day16ExceptionsStringToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BD09A81D36785800515F7F /* Day16ExceptionsStringToInteger.swift */; };
+		74BD09AB1D37D31E00515F7F /* Day17MoreExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BD09AA1D37D31E00515F7F /* Day17MoreExceptions.swift */; };
 		74BE400F1D2326E000D7963D /* SherlockAndTheBeast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */; };
 		74E254871D26AC08003F8CDA /* Day4ClassVsInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */; };
 		74E254891D284B5A003F8CDA /* Day5Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E254881D284B5A003F8CDA /* Day5Loops.swift */; };
@@ -90,6 +91,7 @@
 		74B364141D344D52008776FF /* SherlockAndArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndArray.swift; sourceTree = "<group>"; };
 		74B364161D355C87008776FF /* Day15LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day15LinkedList.swift; sourceTree = "<group>"; };
 		74BD09A81D36785800515F7F /* Day16ExceptionsStringToInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16ExceptionsStringToInteger.swift; sourceTree = "<group>"; };
+		74BD09AA1D37D31E00515F7F /* Day17MoreExceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day17MoreExceptions.swift; sourceTree = "<group>"; };
 		74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndTheBeast.swift; sourceTree = "<group>"; };
 		74E254861D26AC08003F8CDA /* Day4ClassVsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day4ClassVsInstance.swift; sourceTree = "<group>"; };
 		74E254881D284B5A003F8CDA /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				74B3640D1D33DAFC008776FF /* Day14Scope.swift */,
 				74B364161D355C87008776FF /* Day15LinkedList.swift */,
 				74BD09A81D36785800515F7F /* Day16ExceptionsStringToInteger.swift */,
+				74BD09AA1D37D31E00515F7F /* Day17MoreExceptions.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				7435144F1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift in Sources */,
 				74747AA11D3230A600938968 /* SnakesAndLaddersTheQuickestWayUp.swift in Sources */,
 				74747A9F1D31FA8700938968 /* InsertionSortPart2.swift in Sources */,
+				74BD09AB1D37D31E00515F7F /* Day17MoreExceptions.swift in Sources */,
 				74E254911D2C319C003F8CDA /* Day8DictionariesAndMaps.swift in Sources */,
 				7435144C1D2F0752004B2F12 /* MinimumDistances.swift in Sources */,
 				74E2548D1D2A9794003F8CDA /* Day7Arrays.swift in Sources */,

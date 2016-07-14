@@ -58,7 +58,8 @@ case "Day13AbstractClasses" : _ = Day13AbstractClasses()
 case "Day14Scope" : _ = Day14Scope()
 case "Day15LinkedList" : _ = Day15LinkedList()
 case "Day16ExceptionsStringToInteger" : _ = Day16ExceptionsStringToInteger()
+case "Day17MoreExceptions" : _ = Day17MoreExceptions()
 	
 default :
-	print("Error")
+	print("No method found to be executed")
 }

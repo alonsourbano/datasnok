@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "SherlockAndArray"
+            argument = "Day17MoreExceptions"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
