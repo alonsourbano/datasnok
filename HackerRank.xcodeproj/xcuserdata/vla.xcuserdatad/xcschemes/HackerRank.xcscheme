@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day17MoreExceptions"
+            argument = "Day18QueuesAndStacks"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

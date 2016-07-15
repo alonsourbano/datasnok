@@ -59,6 +59,7 @@ case "Day14Scope" : _ = Day14Scope()
 case "Day15LinkedList" : _ = Day15LinkedList()
 case "Day16ExceptionsStringToInteger" : _ = Day16ExceptionsStringToInteger()
 case "Day17MoreExceptions" : _ = Day17MoreExceptions()
+case "Day18QueuesAndStacks" : _ = Day18QueuesAndStacks()
 	
 default :
 	print("No method found to be executed")
