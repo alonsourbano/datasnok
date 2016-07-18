@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7400BB6E1D3A963D00E4B7CB /* Day19Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400BB6D1D3A963D00E4B7CB /* Day19Interfaces.swift */; };
 		740F85601D39198A00367E91 /* Day18QueuesAndStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */; };
 		742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0E9F1D240395004ED1CD /* Day2Operators.swift */; };
 		742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */; };
@@ -21,6 +22,7 @@
 		74747A9D1D31EF9D00938968 /* InsertionSortPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747A9C1D31EF9D00938968 /* InsertionSortPart1.swift */; };
 		74747A9F1D31FA8700938968 /* InsertionSortPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747A9E1D31FA8700938968 /* InsertionSortPart2.swift */; };
 		74747AA11D3230A600938968 /* SnakesAndLaddersTheQuickestWayUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747AA01D3230A600938968 /* SnakesAndLaddersTheQuickestWayUp.swift */; };
+		7497CAA11D3C5BE20030F1A5 /* Day20Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7497CAA01D3C5BE20030F1A5 /* Day20Sorting.swift */; };
 		749A8AB91D2235B7001FA3A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AB81D2235B7001FA3A2 /* main.swift */; };
 		749A8AC01D223639001FA3A2 /* SolveMeFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */; };
 		749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AC31D2238D2001FA3A2 /* SimpleArraySum.swift */; };
@@ -61,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7400BB6D1D3A963D00E4B7CB /* Day19Interfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19Interfaces.swift; sourceTree = "<group>"; };
 		740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day18QueuesAndStacks.swift; sourceTree = "<group>"; };
 		742B0E9F1D240395004ED1CD /* Day2Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Operators.swift; sourceTree = "<group>"; };
 		742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3IntroToConditionalStatements.swift; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 		74747A9C1D31EF9D00938968 /* InsertionSortPart1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortPart1.swift; sourceTree = "<group>"; };
 		74747A9E1D31FA8700938968 /* InsertionSortPart2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortPart2.swift; sourceTree = "<group>"; };
 		74747AA01D3230A600938968 /* SnakesAndLaddersTheQuickestWayUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakesAndLaddersTheQuickestWayUp.swift; sourceTree = "<group>"; };
+		7497CAA01D3C5BE20030F1A5 /* Day20Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day20Sorting.swift; sourceTree = "<group>"; };
 		749A8AB51D2235B7001FA3A2 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		749A8AB81D2235B7001FA3A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		749A8ABF1D223639001FA3A2 /* SolveMeFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolveMeFirst.swift; sourceTree = "<group>"; };
@@ -216,6 +220,8 @@
 				74BD09A81D36785800515F7F /* Day16ExceptionsStringToInteger.swift */,
 				74BD09AA1D37D31E00515F7F /* Day17MoreExceptions.swift */,
 				740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */,
+				7400BB6D1D3A963D00E4B7CB /* Day19Interfaces.swift */,
+				7497CAA01D3C5BE20030F1A5 /* Day20Sorting.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 				74BD09A91D36785800515F7F /* Day16ExceptionsStringToInteger.swift in Sources */,
 				74E254991D2DBC46003F8CDA /* SuperReducedString.swift in Sources */,
 				7435144F1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift in Sources */,
+				7400BB6E1D3A963D00E4B7CB /* Day19Interfaces.swift in Sources */,
 				74747AA11D3230A600938968 /* SnakesAndLaddersTheQuickestWayUp.swift in Sources */,
 				74747A9F1D31FA8700938968 /* InsertionSortPart2.swift in Sources */,
 				74BD09AB1D37D31E00515F7F /* Day17MoreExceptions.swift in Sources */,
@@ -344,6 +351,7 @@
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
 				749A8AB91D2235B7001FA3A2 /* main.swift in Sources */,
 				74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */,
+				7497CAA11D3C5BE20030F1A5 /* Day20Sorting.swift in Sources */,
 				7435144A1D2EBE14004B2F12 /* Day10BinaryNumbers.swift in Sources */,
 				74B364151D344D52008776FF /* SherlockAndArray.swift in Sources */,
 			);
