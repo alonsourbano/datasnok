@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day20Sorting"
+            argument = "Day21Generics"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
