@@ -63,6 +63,7 @@ case "Day18QueuesAndStacks" : _ = Day18QueuesAndStacks()
 case "Day19Interfaces" : _ = Day19Interfaces()
 case "Day20Sorting" : _ = Day20Sorting()
 case "Day21Generics" : _ = Day21Generics()
+case "Day22BinarySearchTrees" : _ = Day22BinarySearchTrees()
 	
 default :
 	print("No method found to be executed")

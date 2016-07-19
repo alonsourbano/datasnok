@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day21Generics"
+            argument = "Day22BinarySearchTrees"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

@@ -56,7 +56,7 @@ LinkedListExplanation.png
 
 class Day15LinkedList {
 	init() {
-		var head: Node! = nil
+		var head: Node15! = nil
 		var n: Int = Int(readLine(stripNewline: true)!)!
 		
 		while n > 0 {
@@ -67,9 +67,9 @@ class Day15LinkedList {
 		display(head)
 	}
 	
-	func insert(head: Node!, data: Int!) -> Node {
+	func insert(head: Node15!, data: Int!) -> Node15 {
 		if head == nil {
-			let n = Node(data: data)
+			let n = Node15(data: data)
 			return n
 		}
 		
@@ -78,13 +78,13 @@ class Day15LinkedList {
 			last = next
 		}
 		
-		let n = Node(data: data)
+		let n = Node15(data: data)
 		last.next = n
 		return head
 	}
 	
-	func display(head: Node!) {
-		var current: Node! = head
+	func display(head: Node15!) {
+		var current: Node15! = head
 		while current != nil {
 			print(current.data, terminator: " ")
 			current = current.next
@@ -92,9 +92,9 @@ class Day15LinkedList {
 	}
 }
 
-class Node {
+class Node15 {
 	var data: Int
-	var next: Node?
+	var next: Node15?
 	
 	init(data: Int) {
 		self.data = data
