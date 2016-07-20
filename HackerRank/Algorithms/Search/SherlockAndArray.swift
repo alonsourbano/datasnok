@@ -39,29 +39,21 @@ For the second test case, , therefore index  satisfies the given conditions.
 */
 
 class SherlockAndArray {
+	private var left = Array<Int>()
+	private var right = Array<Int>()
+	
 	init() {
 		let t = Int(readLine()!)!
 		for _ in 1 ... t {
 			_ = Int(readLine()!)!
 			let arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
+			left = Array<Int>()
+			right = Array<Int>(count: arr.count, repeatedValue: -1)
 			var found = false
 			for i in 0 ..< arr.count {
-				var s1: Int!
-				var s2: Int!
-				
-				if i > 0 {
-					s1 = Array(arr[0 ... i - 1]).reduce(0, combine: +)
-				} else {
-					s1 = 0
-				}
-				
-				if i < arr.count - 1 {
-					s2 = Array(arr[i + 1 ... arr.count - 1]).reduce(0, combine: +)
-				} else {
-					s2 = 0
-				}
-				
-				if s1 == s2 {
+				let l = sumAllLeft(arr, i: i)
+				let r = sumAllRight(arr, i: i)
+				if l == r {
 					found = true
 					break
 				}
@@ -73,5 +65,44 @@ class SherlockAndArray {
 				print("NO")
 			}
 		}
+	}
+	
+	func sumAllLeft(a: Array<Int>, i: Int) -> Int {
+		if i == 0 {
+			left.insert(0, atIndex: 0)
+			return 0
+		}
+		
+		if left.indices.contains(i) {
+			return left[i]
+		}
+		
+		if left.indices.contains(i - 1) {
+			let s = left[i - 1] + a[i - 1]
+			left.insert(s, atIndex: i)
+			return s
+		}
+		
+		return 0
+	}
+	
+	func sumAllRight(a: Array<Int>, i: Int) -> Int {
+		if i == a.count - 1 {
+			return 0
+		}
+		
+		if right[i] > -1 {
+			return right[i]
+		}
+		
+		if right[i + 1] > -1 {
+			let s = right[i + 1] + a[i + 1]
+			right[i] = s
+			return s
+		}
+		
+		let s = sumAllRight(a, i: i + 1) + a[i + 1]
+		right[i] = s
+		return s
 	}
 }
