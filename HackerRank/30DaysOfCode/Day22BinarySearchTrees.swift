@@ -51,8 +51,8 @@ There are  nodes in this path that are connected by  edges, meaning our BST's . 
 
 class Day22BinarySearchTrees {
 	init() {
-		var root: Node?
-		let tree = Tree()
+		var root: Node22?
+		let tree = Tree22()
 		
 		var t = Int(readLine()!)!
 		
@@ -66,10 +66,10 @@ class Day22BinarySearchTrees {
 }
 
 // Start of Node class
-class Node {
+class Node22 {
 	var data: Int
-	var left: Node?
-	var right: Node?
+	var left: Node22?
+	var right: Node22?
 	
 	init(d : Int) {
 		data  = d
@@ -77,10 +77,10 @@ class Node {
 } // End of Node class
 
 // Start of Tree class
-class Tree {
-	func insert(root: Node?, data: Int) -> Node? {
+class Tree22 {
+	func insert(root: Node22?, data: Int) -> Node22? {
 		if root == nil {
-			return Node(d: data)
+			return Node22(d: data)
 		}
 		
 		if data <= root?.data {
@@ -92,8 +92,8 @@ class Tree {
 		return root
 	}
 	
-	func getHeight(root: Node?) -> Int {
-		var q = [(distance: Int, node: Node)]()
+	func getHeight(root: Node22?) -> Int {
+		var q = [(distance: Int, node: Node22)]()
 		q.insert((distance: 0, node: root!), atIndex: 0)
 		var h = 0
 		while !q.isEmpty {

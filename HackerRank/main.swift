@@ -64,6 +64,7 @@ case "Day19Interfaces" : _ = Day19Interfaces()
 case "Day20Sorting" : _ = Day20Sorting()
 case "Day21Generics" : _ = Day21Generics()
 case "Day22BinarySearchTrees" : _ = Day22BinarySearchTrees()
+case "Day23BSTLevelOrderTraversal" : _ = Day23BSTLevelOrderTraversal()
 	
 default :
 	print("No method found to be executed")
