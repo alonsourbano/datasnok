@@ -56,14 +56,24 @@ class Day25RunningTimeAndComplexity {
 		let t = Int(readLine()!)!
 		for _ in 1 ... t {
 			let n = Int(readLine()!)!
-			var i = 2
-			var prime = n > 1
+			if n == 2 {
+				print("Prime")
+				continue
+			}
+			
+			if n == 1 || n % 2 == 0 {
+				print("Not prime")
+				continue
+			}
+			
+			var i = 3
+			var prime = true
 			while i * i <= n {
 				if n % i == 0 {
 					prime = false
 					break
 				}
-				i += 1
+				i += 2
 			}
 			
 			if prime {
