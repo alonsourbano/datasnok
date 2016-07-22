@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "SherlockAndArray"
+            argument = "Day24MoreLinkedLists"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

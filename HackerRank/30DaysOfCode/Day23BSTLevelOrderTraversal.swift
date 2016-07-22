@@ -47,8 +47,8 @@ We traverse each level of the tree from the root downward, and we process the no
 
 class Day23BSTLevelOrderTraversal {
 	init() {
-		var root: Node?
-		var tree = Tree()
+		var root: Node23?
+		let tree = Tree()
 		
 		var t = Int(readLine()!)!
 		
@@ -61,10 +61,10 @@ class Day23BSTLevelOrderTraversal {
 }
 
 // Start of class Node
-class Node {
+class Node23 {
 	var data: Int
-	var left: Node?
-	var right: Node?
+	var left: Node23?
+	var right: Node23?
 	
 	init(d : Int) {
 		data  = d
@@ -73,9 +73,9 @@ class Node {
 
 // Start of class Tree
 class Tree {
-	func insert(root: Node?, data: Int) -> Node? {
+	func insert(root: Node23?, data: Int) -> Node23? {
 		if root == nil {
-			return Node(d: data)
+			return Node23(d: data)
 		}
 		
 		if data <= root?.data {
@@ -87,8 +87,8 @@ class Tree {
 		return root
 	}
 	
-	func levelOrder(root: Node?) {
-		var q  = Array<Node>()
+	func levelOrder(root: Node23?) {
+		var q  = Array<Node23>()
 		var a = Array<String>()
 		q.append(root!)
 		while !q.isEmpty {

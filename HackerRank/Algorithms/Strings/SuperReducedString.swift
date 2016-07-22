@@ -63,7 +63,6 @@ class SuperReducedString {
 	init() {
 		let s = readLine()!
 		var arr = Array(s.characters)
-		var o = s
 		
 		var i = 0
 		var j = 1
