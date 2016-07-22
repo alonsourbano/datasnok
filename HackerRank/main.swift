@@ -66,6 +66,7 @@ case "Day21Generics" : _ = Day21Generics()
 case "Day22BinarySearchTrees" : _ = Day22BinarySearchTrees()
 case "Day23BSTLevelOrderTraversal" : _ = Day23BSTLevelOrderTraversal()
 case "Day24MoreLinkedLists" : _ = Day24MoreLinkedLists()
+case "Day25RunningTimeAndComplexity" : _ = Day25RunningTimeAndComplexity()
 	
 default :
 	print("No method found to be executed")

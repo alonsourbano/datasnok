@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day24MoreLinkedLists"
+            argument = "Day25RunningTimeAndComplexity"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
