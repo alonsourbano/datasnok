@@ -63,7 +63,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day25RunningTimeAndComplexity"
+            argument = "SherlockAndArray"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "&quot;/Volumes/Rauenstein/Users/vla/Xcode/HackerRank/HackerRank/Algorithms/Search/TC6SherlockAndArray.txt&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

@@ -6,6 +6,13 @@
 //  Copyright © 2016 Vladimir Urbano. All rights reserved.
 //
 
+import Foundation
+
+if Process.arguments.indices.contains(2) {
+	let path = Process.arguments[2]
+	freopen(path, "r", stdin)
+}
+
 switch Process.arguments[1] {
 	// Warm up
 case "SolveMeFirst" : _ = SolveMeFirst()

@@ -38,22 +38,65 @@ For the first test case, no such index exists.
 For the second test case, , therefore index  satisfies the given conditions.
 */
 
+import Foundation
+
 class SherlockAndArray {
-	private var left = Array<Int>()
-	private var right = Array<Int>()
-	
 	init() {
 		let t = Int(readLine()!)!
 		for _ in 1 ... t {
 			_ = Int(readLine()!)!
 			let arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
-			left = Array<Int>()
-			right = Array<Int>(count: arr.count, repeatedValue: -1)
+			if arr.count == 1 {
+				print("YES")
+				continue
+			}
 			var found = false
+			let k = Int(floor(sqrt(Double(arr.count)))) // Slices
+			var m = Array<Int>(count: (arr.count / k) + 1, repeatedValue: 0)
+			if arr.count - k * k > 0 {
+				m.append(0)
+			}
 			for i in 0 ..< arr.count {
-				let l = sumAllLeft(arr, i: i)
-				let r = sumAllRight(arr, i: i)
-				if l == r {
+				m[i/k] += arr[i]
+			}
+			
+			for i in 1 ..< arr.count - 1 {
+				var left = 0
+				var right = 0
+				
+				// Left
+				
+				for j in 0 ..< m.count {
+					if i >= k * (j + 1) {
+						left += m[j]
+					} else {
+						break
+					}
+				}
+				
+				for j in i / k * k ..< i {
+					if i % k != 0 {
+						left += arr[j]
+					}
+				}
+				
+				// Right
+				
+				for j in (1 ..< m.count).reverse() {
+					if i < k * j {
+						right += m[j]
+					} else {
+						break
+					}
+				}
+				
+				for j in i + 1 ..< ((i / k) + 1) * k {
+					if (i + 1) % k != 0 && j < arr.count {
+						right += arr[j]
+					}
+				}
+				
+				if left == right {
 					found = true
 					break
 				}
@@ -65,44 +108,5 @@ class SherlockAndArray {
 				print("NO")
 			}
 		}
-	}
-	
-	func sumAllLeft(a: Array<Int>, i: Int) -> Int {
-		if i == 0 {
-			left.insert(0, atIndex: 0)
-			return 0
-		}
-		
-		if left.indices.contains(i) {
-			return left[i]
-		}
-		
-		if left.indices.contains(i - 1) {
-			let s = left[i - 1] + a[i - 1]
-			left.insert(s, atIndex: i)
-			return s
-		}
-		
-		return 0
-	}
-	
-	func sumAllRight(a: Array<Int>, i: Int) -> Int {
-		if i == a.count - 1 {
-			return 0
-		}
-		
-		if right[i] > -1 {
-			return right[i]
-		}
-		
-		if right[i + 1] > -1 {
-			let s = right[i + 1] + a[i + 1]
-			right[i] = s
-			return s
-		}
-		
-		let s = sumAllRight(a, i: i + 1) + a[i + 1]
-		right[i] = s
-		return s
 	}
 }
