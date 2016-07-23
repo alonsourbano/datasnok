@@ -63,12 +63,12 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "SherlockAndArray"
+            argument = "Day26NestedLogic"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "&quot;/Volumes/Rauenstein/Users/vla/Xcode/HackerRank/HackerRank/Algorithms/Search/TC6SherlockAndArray.txt&quot;"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>

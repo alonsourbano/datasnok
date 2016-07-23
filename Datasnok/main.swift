@@ -41,7 +41,7 @@ case "InsertionSortPart2" : _ = InsertionSortPart2()
 case "SherlockAndArray" : _ = SherlockAndArray()
 	
 	// Graph theory
-case "SynchronousShopping" : _ = SynchronousShopping()
+//case "SynchronousShopping" : _ = SynchronousShopping()
 case "SnakesAndLaddersTheQuickestWayUp" : _ = SnakesAndLaddersTheQuickestWayUp()
 	
 	// Dynamic programming
@@ -74,6 +74,7 @@ case "Day22BinarySearchTrees" : _ = Day22BinarySearchTrees()
 case "Day23BSTLevelOrderTraversal" : _ = Day23BSTLevelOrderTraversal()
 case "Day24MoreLinkedLists" : _ = Day24MoreLinkedLists()
 case "Day25RunningTimeAndComplexity" : _ = Day25RunningTimeAndComplexity()
+case "Day26NestedLogic" : _ = Day26NestedLogic()
 	
 default :
 	print("No method found to be executed")
