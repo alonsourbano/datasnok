@@ -15,7 +15,6 @@
 		7435144A1D2EBE14004B2F12 /* Day10BinaryNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514491D2EBE14004B2F12 /* Day10BinaryNumbers.swift */; };
 		7435144C1D2F0752004B2F12 /* MinimumDistances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435144B1D2F0752004B2F12 /* MinimumDistances.swift */; };
 		7435144F1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435144E1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift */; };
-		743514521D2F4148004B2F12 /* SynchronousShopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514511D2F4148004B2F12 /* SynchronousShopping.swift */; };
 		743514541D2FDF59004B2F12 /* Day112DArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514531D2FDF59004B2F12 /* Day112DArrays.swift */; };
 		743514571D301661004B2F12 /* TheMaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514561D301661004B2F12 /* TheMaximumSubarray.swift */; };
 		7435BA5F1D3FB976002081D6 /* Day23BSTLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435BA5E1D3FB976002081D6 /* Day23BSTLevelOrderTraversal.swift */; };
@@ -76,7 +75,6 @@
 		743514491D2EBE14004B2F12 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
 		7435144B1D2F0752004B2F12 /* MinimumDistances.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumDistances.swift; sourceTree = "<group>"; };
 		7435144E1D2F3D54004B2F12 /* IntroToTutorialChallenges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroToTutorialChallenges.swift; sourceTree = "<group>"; };
-		743514511D2F4148004B2F12 /* SynchronousShopping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronousShopping.swift; sourceTree = "<group>"; };
 		743514531D2FDF59004B2F12 /* Day112DArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day112DArrays.swift; sourceTree = "<group>"; };
 		743514561D301661004B2F12 /* TheMaximumSubarray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheMaximumSubarray.swift; sourceTree = "<group>"; };
 		7435BA5E1D3FB976002081D6 /* Day23BSTLevelOrderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23BSTLevelOrderTraversal.swift; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 		743514501D2F411D004B2F12 /* Graph theory */ = {
 			isa = PBXGroup;
 			children = (
-				743514511D2F4148004B2F12 /* SynchronousShopping.swift */,
 				74747AA01D3230A600938968 /* SnakesAndLaddersTheQuickestWayUp.swift */,
 			);
 			path = "Graph theory";
@@ -353,7 +350,6 @@
 				74747A9B1D31A78A00938968 /* Day12Inheritance.swift in Sources */,
 				743514571D301661004B2F12 /* TheMaximumSubarray.swift in Sources */,
 				740F85601D39198A00367E91 /* Day18QueuesAndStacks.swift in Sources */,
-				743514521D2F4148004B2F12 /* SynchronousShopping.swift in Sources */,
 				742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */,
 				742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */,
 				74BD09A91D36785800515F7F /* Day16ExceptionsStringToInteger.swift in Sources */,
