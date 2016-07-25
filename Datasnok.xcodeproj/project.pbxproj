@@ -183,6 +183,13 @@
 			path = Tutorials;
 			sourceTree = "<group>";
 		};
+		743FB96E1D45C522005E9DB1 /* Game theory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Game theory";
+			sourceTree = "<group>";
+		};
 		749A8AAC1D2235B7001FA3A2 = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +296,7 @@
 				74B364111D344D0D008776FF /* Search */,
 				743514501D2F411D004B2F12 /* Graph theory */,
 				743514551D301602004B2F12 /* Dynamic programming */,
+				743FB96E1D45C522005E9DB1 /* Game theory */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
