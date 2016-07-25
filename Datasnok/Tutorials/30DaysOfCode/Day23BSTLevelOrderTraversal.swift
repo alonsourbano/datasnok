@@ -50,9 +50,9 @@ class Day23BSTLevelOrderTraversal {
 		var root: Node23?
 		let tree = Tree()
 		
-		var t = Int(readLine()!)!
+		let t = Int(readLine()!)!
 		
-		while t-- > 0 {
+		for _ in 1 ... t {
 			root = tree.insert(root, data: Int(readLine()!)!)
 		}
 		

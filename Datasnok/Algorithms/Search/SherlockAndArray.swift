@@ -52,10 +52,7 @@ class SherlockAndArray {
 			}
 			var found = false
 			let k = Int(floor(sqrt(Double(arr.count)))) // Slices
-			var m = Array<Int>(count: (arr.count / k) + 1, repeatedValue: 0)
-			if arr.count - k * k > 0 {
-				m.append(0)
-			}
+			var m = Array(count: (arr.count / k) + 1, repeatedValue: 0)
 			for i in 0 ..< arr.count {
 				m[i/k] += arr[i]
 			}

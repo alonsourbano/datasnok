@@ -75,6 +75,10 @@ case "Day23BSTLevelOrderTraversal" : _ = Day23BSTLevelOrderTraversal()
 case "Day24MoreLinkedLists" : _ = Day24MoreLinkedLists()
 case "Day25RunningTimeAndComplexity" : _ = Day25RunningTimeAndComplexity()
 case "Day26NestedLogic" : _ = Day26NestedLogic()
+case "Day27Testing" : _ = Day27Testing()
+	
+	// World CodeSprint 5
+case "CamelCase" : _ = CamelCase()
 	
 default :
 	print("No method found to be executed")

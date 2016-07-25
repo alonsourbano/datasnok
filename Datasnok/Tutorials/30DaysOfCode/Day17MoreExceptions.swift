@@ -61,9 +61,9 @@ class Day17MoreExceptions {
 	
 	func doIt() throws {
 		let myCalculator = Calculator()
-		var t = Int(readLine()!)!
+		let t = Int(readLine()!)!
 		
-		while t-- > 0 {
+		for _ in 1 ... t {
 			let np = readLine()!.characters.split(" ").map(String.init)
 			
 			do {

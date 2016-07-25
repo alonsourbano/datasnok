@@ -19,6 +19,8 @@
 		743514571D301661004B2F12 /* TheMaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743514561D301661004B2F12 /* TheMaximumSubarray.swift */; };
 		7435BA5F1D3FB976002081D6 /* Day23BSTLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7435BA5E1D3FB976002081D6 /* Day23BSTLevelOrderTraversal.swift */; };
 		743FB9461D43E558005E9DB1 /* Day26NestedLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743FB9451D43E558005E9DB1 /* Day26NestedLogic.swift */; };
+		743FB94A1D442E55005E9DB1 /* CamelCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743FB9491D442E55005E9DB1 /* CamelCase.swift */; };
+		743FB94E1D4581F2005E9DB1 /* Day27Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743FB94D1D4581F2005E9DB1 /* Day27Testing.swift */; };
 		74747A9B1D31A78A00938968 /* Day12Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747A9A1D31A78A00938968 /* Day12Inheritance.swift */; };
 		74747A9D1D31EF9D00938968 /* InsertionSortPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747A9C1D31EF9D00938968 /* InsertionSortPart1.swift */; };
 		74747A9F1D31FA8700938968 /* InsertionSortPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747A9E1D31FA8700938968 /* InsertionSortPart2.swift */; };
@@ -80,6 +82,8 @@
 		743514561D301661004B2F12 /* TheMaximumSubarray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheMaximumSubarray.swift; sourceTree = "<group>"; };
 		7435BA5E1D3FB976002081D6 /* Day23BSTLevelOrderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23BSTLevelOrderTraversal.swift; sourceTree = "<group>"; };
 		743FB9451D43E558005E9DB1 /* Day26NestedLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day26NestedLogic.swift; sourceTree = "<group>"; };
+		743FB9491D442E55005E9DB1 /* CamelCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamelCase.swift; sourceTree = "<group>"; };
+		743FB94D1D4581F2005E9DB1 /* Day27Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27Testing.swift; sourceTree = "<group>"; };
 		74747A9A1D31A78A00938968 /* Day12Inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12Inheritance.swift; sourceTree = "<group>"; };
 		74747A9C1D31EF9D00938968 /* InsertionSortPart1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortPart1.swift; sourceTree = "<group>"; };
 		74747A9E1D31FA8700938968 /* InsertionSortPart2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortPart2.swift; sourceTree = "<group>"; };
@@ -155,6 +159,30 @@
 			path = "Dynamic programming";
 			sourceTree = "<group>";
 		};
+		743FB9471D442DFE005E9DB1 /* Contests */ = {
+			isa = PBXGroup;
+			children = (
+				743FB9481D442E2C005E9DB1 /* World CodeSprint 5 */,
+			);
+			path = Contests;
+			sourceTree = "<group>";
+		};
+		743FB9481D442E2C005E9DB1 /* World CodeSprint 5 */ = {
+			isa = PBXGroup;
+			children = (
+				743FB9491D442E55005E9DB1 /* CamelCase.swift */,
+			);
+			path = "World CodeSprint 5";
+			sourceTree = "<group>";
+		};
+		743FB96D1D45C399005E9DB1 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				749A8AD41D22B81F001FA3A2 /* 30DaysOfCode */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
 		749A8AAC1D2235B7001FA3A2 = {
 			isa = PBXGroup;
 			children = (
@@ -175,8 +203,9 @@
 		749A8AB71D2235B7001FA3A2 /* Datasnok */ = {
 			isa = PBXGroup;
 			children = (
+				743FB96D1D45C399005E9DB1 /* Tutorials */,
+				743FB9471D442DFE005E9DB1 /* Contests */,
 				74E254941D2DBBBE003F8CDA /* Algorithms */,
-				749A8AD41D22B81F001FA3A2 /* 30DaysOfCode */,
 				749A8AB81D2235B7001FA3A2 /* main.swift */,
 			);
 			path = Datasnok;
@@ -237,6 +266,7 @@
 				747A27D01D412D89002A77BD /* Day24MoreLinkedLists.swift */,
 				74E2200C1D427DF500BFDF47 /* Day25RunningTimeAndComplexity.swift */,
 				743FB9451D43E558005E9DB1 /* Day26NestedLogic.swift */,
+				743FB94D1D4581F2005E9DB1 /* Day27Testing.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -365,12 +395,14 @@
 				74BD09AB1D37D31E00515F7F /* Day17MoreExceptions.swift in Sources */,
 				74E254911D2C319C003F8CDA /* Day8DictionariesAndMaps.swift in Sources */,
 				7435144C1D2F0752004B2F12 /* MinimumDistances.swift in Sources */,
+				743FB94E1D4581F2005E9DB1 /* Day27Testing.swift in Sources */,
 				74E2548D1D2A9794003F8CDA /* Day7Arrays.swift in Sources */,
 				74E2200D1D427DF500BFDF47 /* Day25RunningTimeAndComplexity.swift in Sources */,
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
 				749A8AB91D2235B7001FA3A2 /* main.swift in Sources */,
 				74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */,
 				7497CAA11D3C5BE20030F1A5 /* Day20Sorting.swift in Sources */,
+				743FB94A1D442E55005E9DB1 /* CamelCase.swift in Sources */,
 				7497CAA31D3D14B70030F1A5 /* Day21Generics.swift in Sources */,
 				7435144A1D2EBE14004B2F12 /* Day10BinaryNumbers.swift in Sources */,
 				74B364151D344D52008776FF /* SherlockAndArray.swift in Sources */,

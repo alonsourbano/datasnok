@@ -58,25 +58,17 @@ class AngryProfessor {
 		
 		for _ in 1 ... t {
 			// total of students and cancelation threshold
-			var arr = readLine()!.characters.split(" ").map{Int(String($0))!}
+			var arr = readLine()!.characters.split(" ").map{ Int(String($0))! }
 			let k = arr[1]
 			
 			// arrival times
-			arr = readLine()!.characters.split(" ").map{Int(String($0))!}
-			var o = 0
-			for a in arr {
-				if a <= 0 {
-					o += 1
-				}
-				
-				if o >= k {
-					print("NO")
-					break
-				}
-			}
+			arr = readLine()!.characters.split(" ").map{ Int(String($0))! }
+			let o = arr.filter{ $0 <= 0 }.count
 			
 			if o < k {
 				print("YES")
+			} else {
+				print("NO")
 			}
 		}
 	}
