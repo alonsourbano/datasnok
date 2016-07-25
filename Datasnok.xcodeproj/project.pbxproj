@@ -21,6 +21,7 @@
 		743FB9461D43E558005E9DB1 /* Day26NestedLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743FB9451D43E558005E9DB1 /* Day26NestedLogic.swift */; };
 		743FB94A1D442E55005E9DB1 /* CamelCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743FB9491D442E55005E9DB1 /* CamelCase.swift */; };
 		743FB94E1D4581F2005E9DB1 /* Day27Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743FB94D1D4581F2005E9DB1 /* Day27Testing.swift */; };
+		743FB9741D45CC0D005E9DB1 /* GameOfStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743FB9731D45CC0D005E9DB1 /* GameOfStones.swift */; };
 		74747A9B1D31A78A00938968 /* Day12Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747A9A1D31A78A00938968 /* Day12Inheritance.swift */; };
 		74747A9D1D31EF9D00938968 /* InsertionSortPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747A9C1D31EF9D00938968 /* InsertionSortPart1.swift */; };
 		74747A9F1D31FA8700938968 /* InsertionSortPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74747A9E1D31FA8700938968 /* InsertionSortPart2.swift */; };
@@ -84,6 +85,7 @@
 		743FB9451D43E558005E9DB1 /* Day26NestedLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day26NestedLogic.swift; sourceTree = "<group>"; };
 		743FB9491D442E55005E9DB1 /* CamelCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamelCase.swift; sourceTree = "<group>"; };
 		743FB94D1D4581F2005E9DB1 /* Day27Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27Testing.swift; sourceTree = "<group>"; };
+		743FB9731D45CC0D005E9DB1 /* GameOfStones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOfStones.swift; sourceTree = "<group>"; };
 		74747A9A1D31A78A00938968 /* Day12Inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12Inheritance.swift; sourceTree = "<group>"; };
 		74747A9C1D31EF9D00938968 /* InsertionSortPart1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortPart1.swift; sourceTree = "<group>"; };
 		74747A9E1D31FA8700938968 /* InsertionSortPart2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortPart2.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 		743FB96E1D45C522005E9DB1 /* Game theory */ = {
 			isa = PBXGroup;
 			children = (
+				743FB9731D45CC0D005E9DB1 /* GameOfStones.swift */,
 			);
 			path = "Game theory";
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				7435BA5F1D3FB976002081D6 /* Day23BSTLevelOrderTraversal.swift in Sources */,
 				749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */,
 				749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */,
+				743FB9741D45CC0D005E9DB1 /* GameOfStones.swift in Sources */,
 				749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */,
 				749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */,
 				74747A9D1D31EF9D00938968 /* InsertionSortPart1.swift in Sources */,
