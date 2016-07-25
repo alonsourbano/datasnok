@@ -74,6 +74,27 @@ Because , our code should print that the person is old. Three years pass and the
 
 import Foundation
 
+class Day4ClassVsInstance {
+	init() {
+		// Number of test cases
+		let t = Int(readLine(stripNewline: true)!)!
+		
+		for _ in 1 ... t {
+			// Age
+			let age = Int(readLine(stripNewline: true)!)!
+			let p = Person_1(initialAge: age)
+			p.amIOld()
+			
+			for _ in 1 ... 3 {
+				p.yearPasses()
+			}
+			
+			p.amIOld()
+			print("")
+		}
+	}
+}
+
 class Person_1 {
 	var age: Int = 0
 	
@@ -102,26 +123,5 @@ class Person_1 {
 	func yearPasses() {
 		// Increment the age of the person in here
 		self.age += 1
-	}
-}
-
-class Day4ClassVsInstance {
-	init() {
-		var t = Int(readLine(stripNewline: true)!)!
-		
-		while t > 0 {
-			let age = Int(readLine(stripNewline: true)!)!
-			let p = Person_1(initialAge: age)
-			p.amIOld()
-			
-			for _ in 1 ... 3 {
-				p.yearPasses()
-			}
-			
-			p.amIOld()
-			print("")
-			
-			t = t - 1 // decrement t
-		}
 	}
 }

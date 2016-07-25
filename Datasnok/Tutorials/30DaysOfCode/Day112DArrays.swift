@@ -80,9 +80,12 @@ The hourglass with the maximum sum () is:
 
 class Day112DArrays {
 	init() {
-		var input = Array<Array<Int>>()
+		var input = [[Int]]()
+		// Read the matrix
 		for _ in 1 ... 6 {
-			let arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
+			// Read all the row at once, split it into array...
+			let arr = readLine()!.characters.split(" ").map{ Int(String($0))! }
+			// ... and save it to the matrix
 			input.append(arr)
 		}
 		
@@ -90,13 +93,16 @@ class Day112DArrays {
 		
 		for i in 0 ..< input.count - 2 {
 			for j in 0 ..< input[i].count - 2 {
-				let a = (input[i][j], input[i][j + 1], input[i][j + 2])
-				let b = (input[i + 1][j + 1])
-				let c = (input[i + 2][j], input[i + 2][j + 1], input[i + 2][j + 2])
+				let a = (input[i][j], input[i][j + 1], input[i][j + 2]) // Top-row elements
+				let b = (input[i + 1][j + 1]) // Middle-row element
+				let c = (input[i + 2][j], input[i + 2][j + 1], input[i + 2][j + 2]) // Bottom-row elements
 				let hourglass = (a, b, c)
 				
-				let sum = hourglass.0.0 + hourglass.0.1 + hourglass.0.2 + hourglass.1 + hourglass.2.0 + hourglass.2.1 + hourglass.2.2
+				let sum = hourglass.0.0 + hourglass.0.1 + hourglass.0.2 + hourglass.1 + hourglass.2.0 + hourglass.2.1 + hourglass.2.2 // Sum of all elements
+				
+				// Check if current sum is greater than total max sum
 				if sum > max {
+					// If it is, current is the new greatest sum
 					max = sum
 				}
 			}

@@ -69,18 +69,21 @@ Harry is one of the keys in our dictionary, so we print .
 class Day8DictionariesAndMaps {
 	init() {
 		let n = Int(readLine()!)!
-		var book = Dictionary<String, Int>()
+		var book = [String : Int]()
 		
+		// Read and save the phone book
 		for _ in 0 ..< n {
 			let i = readLine()!.characters.split(" ").map{ String($0) }
 			
 			book[i[0]] = Int(i[1])
 		}
 		
+		// Read input
 		while true {
 			let query = readLine()
 			if let q = query {
 				if let f = book[q] {
+					// Entry exists in phone book
 					print("\(q)=\(f)")
 				} else {
 					print("Not found")

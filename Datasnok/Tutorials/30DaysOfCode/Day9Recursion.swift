@@ -53,10 +53,12 @@ class Day9Recursion {
 	}
 	
 	func factorial(n: Int) -> Int {
+		// End recursion
 		if n <= 1 {
 			return 1
 		}
 		
+		// Recursion
 		return n * factorial(n - 1)
 	}
 }

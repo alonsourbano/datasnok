@@ -55,6 +55,6 @@ Price: 248
 
 class Day13AbstractClasses {
 	init() {
-		// Cannot be done in Swift as there is no support for abstract classes
+		// Cannot be done in Swift as there is no support for abstract classes. There's a PHP file instead.
 	}
 }

@@ -54,10 +54,12 @@ import Foundation
 
 class Day2Operators {
 	init() {
+		// Read input
 		let mealCost = Double(readLine()!)!
 		let tipPercent = Int(readLine()!)!
 		let taxPercent = Int(readLine()!)!
 		
+		// Calculate percents and total
 		let tip = mealCost * Double(tipPercent) / 100
 		let tax = mealCost * Double(taxPercent) / 100
 		let totalCost = Int(round(mealCost + tip + tax))

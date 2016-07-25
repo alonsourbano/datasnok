@@ -56,15 +56,16 @@ This student had  scores to average:  and . The student's average grade is . An 
 
 class Day12Inheritance {
 	init() {
+		// Read name and ID
 		let nameAndID = readLine()!.characters.split(" ").map{String($0)}
-		let _ = readLine() // score count
-		let scores = readLine()!.characters.split(" ").map{Int(String($0))!}
+		let _ = readLine() // Score count, useless in Swift so ignoring its value
+		let scores = readLine()!.characters.split(" ").map{Int(String($0))!} // Scores
 		
-		let s = Student(firstName: nameAndID[0], lastName: nameAndID[1], identification: Int(nameAndID[2])!, scores: scores)
+		let s = Student(firstName: nameAndID[0], lastName: nameAndID[1], identification: Int(nameAndID[2])!, scores: scores) // Create student instance
 		
-		s.printPerson()
+		s.printPerson() // Calling method from base class (Person)
 		
-		print("Grade: \(s.calculate())")
+		print("Grade: \(s.calculate())") // Calling method from student class
 	}
 }
 
@@ -82,7 +83,7 @@ class Student: Person {
 	
 	// Write the calculate method
 	func calculate() -> String {
-		let c = self.testScores.reduce(0, combine: +) / self.testScores.count
+		let c = self.testScores.reduce(0, combine: +) / self.testScores.count // Sum all scores and calculate average
 		switch c {
 		case 90 ... 100 :
 			return "O"

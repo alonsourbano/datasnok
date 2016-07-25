@@ -53,18 +53,24 @@ and  is even, so it isn't weird. Thus, we print Not Weird.
 
 class Day3IntroToConditionalStatements {
 	init() {
+		// Read number
 		let n = Int(readLine()!)!
 		
 		if n % 2 == 0 {
+			// Number is even
 			switch n {
 			case 2 ... 5 :
+				// Number is between 2 and 5
 				print("Not Weird")
 			case 6 ... 20 :
+				// Number is between 6 and 20
 				print("Weird")
 			default :
+				// Otherwise
 				print("Not Weird")
 			}
 		} else {
+			// Number is odd
 			print("Weird")
 		}
 	}

@@ -44,8 +44,10 @@ Sample Output
 
 class Day5Loops {
 	init() {
+		// Input
 		let n = Int(readLine()!)!
 		
+		// Print the first ten multiples
 		for i in 1 ... 10 {
 			print("\(n) x \(i) = \(n * i)")
 		}

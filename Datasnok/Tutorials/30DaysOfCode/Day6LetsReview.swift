@@ -58,6 +58,7 @@ The even indices are  and , and the odd indices are  and . We then print a singl
 
 class Day6LetsReview {
 	init() {
+		// Number of test cases
 		let t = Int(readLine()!)!
 		
 		for _ in 1 ... t {
@@ -69,8 +70,10 @@ class Day6LetsReview {
 			
 			for c in s.characters {
 				if i % 2 == 0 {
+					// Character is even
 					even += String(c)
 				} else {
+					// Character is odd
 					odd += String(c)
 				}
 				

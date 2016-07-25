@@ -47,10 +47,12 @@ The binary representation of  is , so the maximum number of consecutive 's is .
 
 class Day10BinaryNumbers {
 	init() {
-		let n = Int(readLine()!)!
-		let s = String(n, radix: 2)
+		let n = Int(readLine()!)! // Number
+		let s = String(n, radix: 2) // Convert number to binary and keep it as a string representation
 		var i1 = 0
 		var i2 = 0
+		
+		// Loop in reverse order and count the consecutive 1's
 		for c in s.characters.reverse() {
 			if c == "0" {
 				break
@@ -58,6 +60,7 @@ class Day10BinaryNumbers {
 			i1 += 1
 		}
 		
+		// Loop and count the consecutive 1's
 		for c in s.characters {
 			if c == "0" {
 				break
@@ -65,6 +68,7 @@ class Day10BinaryNumbers {
 			i2 += 1
 		}
 		
+		// Print the biggest consecutive ammount of 1's
 		if i1 > i2 {
 			print(i1)
 		} else {

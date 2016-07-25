@@ -37,14 +37,13 @@ Sample Output
 
 class Day7Arrays {
 	init() {
-		// number of elements
+		// Number of elements
 		let _ = Int(readLine()!)!
 		
-		// read array
-		var arr = readLine()!.characters.split(" ").map(String.init)
+		// Read array
+		var arr = readLine()!.characters.split(" ").map{ String($0) }
 		
-		// iterate over the array in reverse order and print the elements separated by space
-		// Enter your code here. Read input from STDIN. Print output to STDOUT
+		// Iterate over the array in reverse order and print the elements separated by space
 		arr = arr.reverse()
 		print(arr.joinWithSeparator(" "))
 	}

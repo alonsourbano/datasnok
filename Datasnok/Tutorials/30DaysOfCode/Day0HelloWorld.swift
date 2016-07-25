@@ -39,7 +39,8 @@ On the first line, we print the string literal Hello, World.. On the second line
 
 class Day0HelloWorld {
 	init() {
-		let inputString = readLine()! // get a line of input from stdin and save it to our variable
+		// Get a line of input from stdin and save it to our variable
+		let inputString = readLine()!
 		
 		// Your first line of output goes here
 		print("Hello, World.")
