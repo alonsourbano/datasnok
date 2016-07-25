@@ -11,9 +11,9 @@ class Day24MoreLinkedLists {
 		var head: Node?
 		let linkedList = LinkedList()
 		
-		var t = Int(readLine()!)!
+		let t = Int(readLine()!)!
 		
-		while t-- > 0 {
+		for _ in 1 ... t {
 			head = linkedList.insert(head, data: Int(readLine()!)!)
 		}
 		
