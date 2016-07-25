@@ -47,6 +47,9 @@ case "SnakesAndLaddersTheQuickestWayUp" : _ = SnakesAndLaddersTheQuickestWayUp()
 	// Dynamic programming
 case "TheMaximumSubarray" : _ = TheMaximumSubarray()
 	
+	// Game theory
+case "PokerNim" : _ = PokerNim()
+	
 	// 30 days of code
 case "Day0HelloWorld" : _ = Day0HelloWorld()
 case "Day1DataTypes" : _ = Day1DataTypes()

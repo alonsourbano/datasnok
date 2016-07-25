@@ -63,11 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day27Testing"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "&quot;/Volumes/Rauenstein/Users/vla/Xcode/Datasnok/Datasnok/Algorithms/Implementation/TCAngryProfessor.txt&quot;"
+            argument = "PokerNim"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
