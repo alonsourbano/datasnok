@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7400BB6E1D3A963D00E4B7CB /* Day19Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400BB6D1D3A963D00E4B7CB /* Day19Interfaces.swift */; };
 		740F85601D39198A00367E91 /* Day18QueuesAndStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */; };
+		742873B31D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */; };
 		742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0E9F1D240395004ED1CD /* Day2Operators.swift */; };
 		742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */; };
 		742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */; };
@@ -72,6 +73,7 @@
 /* Begin PBXFileReference section */
 		7400BB6D1D3A963D00E4B7CB /* Day19Interfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19Interfaces.swift; sourceTree = "<group>"; };
 		740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day18QueuesAndStacks.swift; sourceTree = "<group>"; };
+		742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day28RegExPatternsAndIntroToDatabases.swift; sourceTree = "<group>"; };
 		742B0E9F1D240395004ED1CD /* Day2Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Operators.swift; sourceTree = "<group>"; };
 		742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3IntroToConditionalStatements.swift; sourceTree = "<group>"; };
 		742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairs.swift; sourceTree = "<group>"; };
@@ -183,6 +185,13 @@
 			path = Tutorials;
 			sourceTree = "<group>";
 		};
+		743FB96E1D45C522005E9DB1 /* Game theory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Game theory";
+			sourceTree = "<group>";
+		};
 		749A8AAC1D2235B7001FA3A2 = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +276,7 @@
 				74E2200C1D427DF500BFDF47 /* Day25RunningTimeAndComplexity.swift */,
 				743FB9451D43E558005E9DB1 /* Day26NestedLogic.swift */,
 				743FB94D1D4581F2005E9DB1 /* Day27Testing.swift */,
+				742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -289,6 +299,7 @@
 				74B364111D344D0D008776FF /* Search */,
 				743514501D2F411D004B2F12 /* Graph theory */,
 				743514551D301602004B2F12 /* Dynamic programming */,
+				743FB96E1D45C522005E9DB1 /* Game theory */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -398,6 +409,7 @@
 				743FB94E1D4581F2005E9DB1 /* Day27Testing.swift in Sources */,
 				74E2548D1D2A9794003F8CDA /* Day7Arrays.swift in Sources */,
 				74E2200D1D427DF500BFDF47 /* Day25RunningTimeAndComplexity.swift in Sources */,
+				742873B31D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift in Sources */,
 				749A8AC61D223A06001FA3A2 /* AVeryBigSum.swift in Sources */,
 				749A8AB91D2235B7001FA3A2 /* main.swift in Sources */,
 				74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */,

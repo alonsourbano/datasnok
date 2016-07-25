@@ -76,6 +76,7 @@ case "Day24MoreLinkedLists" : _ = Day24MoreLinkedLists()
 case "Day25RunningTimeAndComplexity" : _ = Day25RunningTimeAndComplexity()
 case "Day26NestedLogic" : _ = Day26NestedLogic()
 case "Day27Testing" : _ = Day27Testing()
+case "Day28RegExPatternsAndIntroToDatabases" : _ = Day28RegExPatternsAndIntroToDatabases()
 	
 	// World CodeSprint 5
 case "CamelCase" : _ = CamelCase()
