@@ -72,7 +72,7 @@ class Day8DictionariesAndMaps {
 		var book = Dictionary<String, Int>()
 		
 		for _ in 0 ..< n {
-			let i = readLine()!.characters.split(" ").map{ String($0) }
+			let i = readLine()!.componentsSeparatedByString(" ").map{ String($0) }
 			
 			book[i[0]] = Int(i[1])
 		}

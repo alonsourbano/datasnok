@@ -10,6 +10,7 @@
 		7400BB6E1D3A963D00E4B7CB /* Day19Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7400BB6D1D3A963D00E4B7CB /* Day19Interfaces.swift */; };
 		740F85601D39198A00367E91 /* Day18QueuesAndStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */; };
 		742873B31D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */; };
+		742873F91D47A1F300CF3800 /* Day29BitwiseAnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873F81D47A1F300CF3800 /* Day29BitwiseAnd.swift */; };
 		742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0E9F1D240395004ED1CD /* Day2Operators.swift */; };
 		742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */; };
 		742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */; };
@@ -74,6 +75,7 @@
 		7400BB6D1D3A963D00E4B7CB /* Day19Interfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day19Interfaces.swift; sourceTree = "<group>"; };
 		740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day18QueuesAndStacks.swift; sourceTree = "<group>"; };
 		742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day28RegExPatternsAndIntroToDatabases.swift; sourceTree = "<group>"; };
+		742873F81D47A1F300CF3800 /* Day29BitwiseAnd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day29BitwiseAnd.swift; sourceTree = "<group>"; };
 		742B0E9F1D240395004ED1CD /* Day2Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Operators.swift; sourceTree = "<group>"; };
 		742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3IntroToConditionalStatements.swift; sourceTree = "<group>"; };
 		742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairs.swift; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 				743FB9451D43E558005E9DB1 /* Day26NestedLogic.swift */,
 				743FB94D1D4581F2005E9DB1 /* Day27Testing.swift */,
 				742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */,
+				742873F81D47A1F300CF3800 /* Day29BitwiseAnd.swift */,
 			);
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */,
 				7481B2C61D3E6E5A00D1F688 /* Day22BinarySearchTrees.swift in Sources */,
 				747A27D11D412D89002A77BD /* Day24MoreLinkedLists.swift in Sources */,
+				742873F91D47A1F300CF3800 /* Day29BitwiseAnd.swift in Sources */,
 				742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */,
 				74E254931D2D4CDB003F8CDA /* Day9Recursion.swift in Sources */,
 				74E254871D26AC08003F8CDA /* Day4ClassVsInstance.swift in Sources */,

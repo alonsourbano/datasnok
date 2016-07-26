@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day28RegExPatternsAndIntroToDatabases"
+            argument = "Day29BitwiseAnd"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

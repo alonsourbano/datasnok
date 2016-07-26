@@ -57,7 +57,7 @@ class TheMaximumSubarray {
 		for _ in 1 ... t {
 			_ = Int(readLine()!)! // n
 			let input = readLine()
-			let arr = input!.characters.split(" ").map({ Int(String($0))! })
+			let arr = input!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 			var maxEndingHere = arr.first!
 			var maxSoFar = arr.first!
 			

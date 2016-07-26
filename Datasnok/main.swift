@@ -77,6 +77,7 @@ case "Day25RunningTimeAndComplexity" : _ = Day25RunningTimeAndComplexity()
 case "Day26NestedLogic" : _ = Day26NestedLogic()
 case "Day27Testing" : _ = Day27Testing()
 case "Day28RegExPatternsAndIntroToDatabases" : _ = Day28RegExPatternsAndIntroToDatabases()
+case "Day29BitwiseAnd" : _ = Day29BitwiseAnd()
 	
 	// World CodeSprint 5
 case "CamelCase" : _ = CamelCase()

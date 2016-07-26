@@ -53,7 +53,7 @@ class DiagonalDifference {
 		
 		// read array row-by-row
 		for _ in 0 ..< n {
-			arr.append(readLine()!.characters.split(" ").map{Int(String($0))!})
+			arr.append(readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! })
 		}
 		
 		// declare sums

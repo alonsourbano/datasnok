@@ -46,7 +46,7 @@ import Foundation
 class MinimumDistances {
 	init() {
 		let _ = Int(readLine()!)! // n
-		let arr = readLine()!.characters.split(" ").map({ Int(String($0)) })
+		let arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		var min = 2000 // Constrain: n cannot be more than 10^3, so we use a bigger number
 		
 		for i in 0 ..< arr.count - 1 {

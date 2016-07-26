@@ -56,9 +56,9 @@ This student had  scores to average:  and . The student's average grade is . An 
 
 class Day12Inheritance {
 	init() {
-		let nameAndID = readLine()!.characters.split(" ").map{String($0)}
+		let nameAndID = readLine()!.componentsSeparatedByString(" ").map{ String($0) }
 		let _ = readLine() // score count
-		let scores = readLine()!.characters.split(" ").map{Int(String($0))!}
+		let scores = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		
 		let s = Student(firstName: nameAndID[0], lastName: nameAndID[1], identification: Int(nameAndID[2])!, scores: scores)
 		

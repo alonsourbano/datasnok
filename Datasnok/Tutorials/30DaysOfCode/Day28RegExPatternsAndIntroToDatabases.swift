@@ -54,7 +54,7 @@ class Day28RegExPatternsAndIntroToDatabases {
 		let n = Int(readLine()!)!
 		var d = [(name: String, email: String)]()
 		for _ in 1 ... n {
-			let arr = readLine()!.characters.split(" ").map{ String($0) }
+			let arr = readLine()!.componentsSeparatedByString(" ").map{ String($0) }
 			d.append((name: arr[0], email: arr[1]))
 		}
 		

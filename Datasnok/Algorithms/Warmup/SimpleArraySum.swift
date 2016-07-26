@@ -36,7 +36,7 @@ class SimpleArraySum {
 		let n = Int(readLine()!)!
 		
 		// read array and map the elements to integer
-		var arr = readLine()!.characters.split(" ").map{Int(String($0))!}
+		var arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		
 		// variable to hold the sum of the array elements
 		var sum = 0
