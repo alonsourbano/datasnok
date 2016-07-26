@@ -63,11 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "NewYorkChaos"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "/Volumes/Rauenstein/Users/vla/Xcode/Datasnok/Datasnok/Algorithms/Implementation/TC6NewYearChaos.txt"
+            argument = "Day29BitwiseAnd"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

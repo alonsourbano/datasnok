@@ -44,7 +44,7 @@ class PlusMinus {
 		let n = Int(readLine()!)!
 		
 		// read array and map the elements to integer
-		let arr = readLine()!.characters.split(" ").map{Int(String($0))!}
+		let arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		
 		// filter
 		let posi = arr.filter() {

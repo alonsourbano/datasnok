@@ -82,7 +82,7 @@ class IntroToTutorialChallenges {
 	init() {
 		let v = Int(readLine()!)!
 		let _ = Int(readLine()!)! // n
-		let arr = readLine()!.characters.split(" ").map({ Int(String($0)) })
+		let arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0)) }
 		
 		if let o = arr.indexOf({ $0 == v }) {
 			print(o)

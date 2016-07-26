@@ -48,7 +48,7 @@ The method insertionSort takes in one parameter: , an unsorted array. Use an Ins
 class InsertionSortPart2 {
 	init() {
 		let _ = Int(readLine()!)!
-		var arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
+		var arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		for i in 1 ..< arr.count {
 			let a = insertionSort(Array(arr[0 ... i]))
 			arr = a + Array(arr[i + 1 ..< arr.count])

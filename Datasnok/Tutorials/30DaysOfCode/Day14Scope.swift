@@ -52,7 +52,7 @@ The maximum of these differences is , so it saves the value  as the  instance va
 class Day14Scope {
 	init() {
 		_ = Int(readLine()!)!
-		let a = readLine()!.characters.split(" ").map(String.init).map{Int($0)!}
+		let a = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		
 		let d = Difference(a: a)
 		

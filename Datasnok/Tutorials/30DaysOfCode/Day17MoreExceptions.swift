@@ -64,7 +64,7 @@ class Day17MoreExceptions {
 		let t = Int(readLine()!)!
 		
 		for _ in 1 ... t {
-			let np = readLine()!.characters.split(" ").map(String.init)
+			let np = readLine()!.componentsSeparatedByString(" ").map{ String($0) }
 			
 			do {
 				let ans = try myCalculator.power(Int(np[0])!, p: Int(np[1])!)

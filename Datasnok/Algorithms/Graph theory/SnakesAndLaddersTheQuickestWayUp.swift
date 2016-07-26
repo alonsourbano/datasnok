@@ -87,7 +87,7 @@ class SnakesAndLaddersTheQuickestWayUp {
 			let n = Int(readLine()!)! // Ladders
 			var ladders = Array<(start: Int, end: Int)>()
 			for _ in 1 ... n {
-				let input = readLine()!.characters.split(" ").map({ Int(String($0))! })
+				let input = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 				let (start, end) = (input[0], input[1])
 				ladders.append((start: start, end: end))
 			}
@@ -95,7 +95,7 @@ class SnakesAndLaddersTheQuickestWayUp {
 			let m = Int(readLine()!)! // Snakes
 			var snakes = Array<(start: Int, end: Int)>()
 			for _ in 1 ... m {
-				let input = readLine()!.characters.split(" ").map({ Int(String($0))! })
+				let input = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 				let (start, end) = (input[0], input[1])
 				snakes.append((start: start, end: end))
 			}
