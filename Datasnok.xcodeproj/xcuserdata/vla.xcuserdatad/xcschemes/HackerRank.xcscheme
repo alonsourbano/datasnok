@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "Day28RegExPatternsAndIntroToDatabases"
+            argument = "LonelyInteger"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
