@@ -139,7 +139,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = "Bit manipulation";
+			path = "Bit manipulation";
 			sourceTree = "<group>";
 		};
 		7435144D1D2F3D2F004B2F12 /* Sorting */ = {
