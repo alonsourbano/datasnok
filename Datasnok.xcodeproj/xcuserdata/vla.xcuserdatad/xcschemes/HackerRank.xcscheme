@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "LonelyInteger"
+            argument = "BearAndSteadyGene"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

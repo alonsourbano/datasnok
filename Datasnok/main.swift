@@ -31,6 +31,7 @@ case "MinimumDistances" : _ = MinimumDistances()
 	
 	// Strings
 case "SuperReducedString" : _ = SuperReducedString()
+case "BearAndSteadyGene" : _ = BearAndSteadyGene()
 	
 	// Sorting
 case "IntroToTutorialChallenges" : _ = IntroToTutorialChallenges()
