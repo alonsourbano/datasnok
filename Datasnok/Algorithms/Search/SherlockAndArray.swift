@@ -45,7 +45,7 @@ class SherlockAndArray {
 		let t = Int(readLine()!)!
 		for _ in 1 ... t {
 			_ = Int(readLine()!)!
-			let arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
+			let arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 			if arr.count == 1 {
 				print("YES")
 				continue

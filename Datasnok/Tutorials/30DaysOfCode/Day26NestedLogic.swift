@@ -54,10 +54,10 @@ Per the library's fee structure, we know that our fine will be . We then print t
 
 class Day26NestedLogic {
 	init() {
-		var input = readLine()!.characters.split(" ").map({ Int(String($0))! })
+		var input = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		let returned = (day: input[0], month: input[1], year: input[2])
 		
-		input = readLine()!.characters.split(" ").map({ Int(String($0))! })
+		input = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		let due = (day: input[0], month: input[1], year: input[2])
 		
 		if returned.year == due.year {

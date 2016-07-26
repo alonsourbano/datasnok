@@ -82,7 +82,7 @@ class Day112DArrays {
 	init() {
 		var input = Array<Array<Int>>()
 		for _ in 1 ... 6 {
-			let arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
+			let arr = readLine()!.componentsSeparatedByString(" ").map({ Int(String($0))! })
 			input.append(arr)
 		}
 		

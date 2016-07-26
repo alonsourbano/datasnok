@@ -38,11 +38,11 @@ Here are the  valid pairs:
 
 class DivisibleSumPairs {
 	init() {
-		var arr = readLine()!.characters.split(" ").map{Int(String($0))!}
+		var arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		
 		let k = arr[1]
 		
-		arr = readLine()!.characters.split(" ").map{Int(String($0))!}
+		arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		var c = 0
 		for i in 0 ..< arr.count - 1 {
 			for j in i + 1 ..< arr.count {

@@ -91,7 +91,7 @@ At this point the array is sorted and we print the necessary  lines of output sh
 class Day20Sorting {
 	init() {
 		let _ = Int(readLine()!)! // n
-		var arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
+		var arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		var totalSwaps = 0
 		
 		for _ in 0 ..< arr.count {

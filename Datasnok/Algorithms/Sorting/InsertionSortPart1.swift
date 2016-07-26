@@ -63,7 +63,7 @@ In the next Challenge, we will complete the insertion sort itself!
 class InsertionSortPart1 {
 	init() {
 		let _ = Int(readLine()!)! // n
-		let arr = readLine()!.characters.split(" ").map({ Int(String($0))! })
+		let arr = readLine()!.componentsSeparatedByString(" ").map{ Int(String($0))! }
 		insertionSort(arr)
 	}
 	
