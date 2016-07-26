@@ -11,6 +11,7 @@
 		740F85601D39198A00367E91 /* Day18QueuesAndStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */; };
 		742873B31D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */; };
 		742873F31D4702A300CF3800 /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873F21D4702A300CF3800 /* LonelyInteger.swift */; };
+		742873F71D47198600CF3800 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873F61D47198600CF3800 /* NewYearChaos.swift */; };
 		742B0EA01D240395004ED1CD /* Day2Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0E9F1D240395004ED1CD /* Day2Operators.swift */; };
 		742B0EA21D256E87004ED1CD /* Day3IntroToConditionalStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */; };
 		742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */; };
@@ -76,6 +77,7 @@
 		740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day18QueuesAndStacks.swift; sourceTree = "<group>"; };
 		742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day28RegExPatternsAndIntroToDatabases.swift; sourceTree = "<group>"; };
 		742873F21D4702A300CF3800 /* LonelyInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LonelyInteger.swift; sourceTree = "<group>"; };
+		742873F61D47198600CF3800 /* NewYearChaos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
 		742B0E9F1D240395004ED1CD /* Day2Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2Operators.swift; sourceTree = "<group>"; };
 		742B0EA11D256E87004ED1CD /* Day3IntroToConditionalStatements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3IntroToConditionalStatements.swift; sourceTree = "<group>"; };
 		742B0EA31D258ECB004ED1CD /* DivisibleSumPairs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisibleSumPairs.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				749A8AD21D225674001FA3A2 /* AngryProfessor.swift */,
 				74BE400E1D2326E000D7963D /* SherlockAndTheBeast.swift */,
 				7435144B1D2F0752004B2F12 /* MinimumDistances.swift */,
+				742873F61D47198600CF3800 /* NewYearChaos.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				74747AA11D3230A600938968 /* SnakesAndLaddersTheQuickestWayUp.swift in Sources */,
 				74747A9F1D31FA8700938968 /* InsertionSortPart2.swift in Sources */,
 				74BD09AB1D37D31E00515F7F /* Day17MoreExceptions.swift in Sources */,
+				742873F71D47198600CF3800 /* NewYearChaos.swift in Sources */,
 				74E254911D2C319C003F8CDA /* Day8DictionariesAndMaps.swift in Sources */,
 				7435144C1D2F0752004B2F12 /* MinimumDistances.swift in Sources */,
 				743FB94E1D4581F2005E9DB1 /* Day27Testing.swift in Sources */,
