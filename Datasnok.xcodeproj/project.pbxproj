@@ -135,6 +135,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742873F11D46FF8000CF3800 /* Bit manipulation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Bit manipulation";
+			sourceTree = "<group>";
+		};
 		7435144D1D2F3D2F004B2F12 /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +306,7 @@
 				74B364111D344D0D008776FF /* Search */,
 				743514501D2F411D004B2F12 /* Graph theory */,
 				743514551D301602004B2F12 /* Dynamic programming */,
+				742873F11D46FF8000CF3800 /* Bit manipulation */,
 				743FB96E1D45C522005E9DB1 /* Game theory */,
 			);
 			path = Algorithms;
