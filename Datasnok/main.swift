@@ -28,6 +28,7 @@ case "DivisibleSumPairs" : _ = DivisibleSumPairs()
 case "AngryProfessor" : _ = AngryProfessor()
 case "SherlockAndTheBeast" : _ = SherlockAndTheBeast()
 case "MinimumDistances" : _ = MinimumDistances()
+case "NewYorkChaos" : _ = NewYearChaos()
 	
 	// Strings
 case "SuperReducedString" : _ = SuperReducedString()
