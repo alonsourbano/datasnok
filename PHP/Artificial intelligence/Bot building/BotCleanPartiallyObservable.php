@@ -7,8 +7,6 @@ function findNextDirty($posr, $posc, &$board)
 		return null;
 	}
 
-	rememberDirties($board);
-
 	$n = count($board);
 
 	if ($posc < $n - 1 && $posc >= 0 && $posr >= 0 && $posr < $n && $board[$posr][$posc + 1] == 'd') {
@@ -32,68 +30,54 @@ function findNextDirty($posr, $posc, &$board)
 	return null;
 }
 
-function rememberDirties(&$board)
+function canMove(&$to, &$nextTo, $posr, $posc, $board)
 {
-	if ($board[$posr][$posc] == 'd') {
-		$board[$posr][$posc] = $board[$posr][$posc];
-	}
-	
-	if ($board[$posr][$posc + 1]) {
-		$board[$posr][$posc + 1] = $board[$posr][$posc + 1];
-	}
-	
-	if ($board[$posr + 1][$posc + 1]) {
-		$board[$posr + 1][$posc + 1] = $board[$posr + 1][$posc + 1];
-	}
-	
-	if ($board[$posr + 1][$posc]) {
-		$board[$posr + 1][$posc] = $board[$posr + 1][$posc];
-	}
-	
-	if ($board[$posr + 1][$posc - 1]) {
-		$board[$posr + 1][$posc - 1] = $board[$posr + 1][$posc - 1];
-	}
-	
-	if ($board[$posr][$posc - 1]) {
-		$board[$posr][$posc - 1] = $board[$posr][$posc - 1];
-	}
-	
-	if ($board[$posr - 1][$posc - 1]) {
-		$board[$posr - 1][$posc - 1] = $board[$posr - 1][$posc - 1];
-	}
-	
-	if ($board[$posr - 1][$posc]) {
-		$board[$posr - 1][$posc] = $board[$posr - 1][$posc];
-	}
-	
-	if ($board[$posr - 1][$posc + 1]) {
-		$board[$posr - 1][$posc + 1] = $board[$posr - 1][$posc + 1];
-	}
-}
-
-function canMoveTo($posr, $posc, $board)
-{
+	echo "$to, $nextTo\n";
 	$n = count($board);
 
-	if ($posr < $n - 1 && $posr >= 0 && $posc < $n - 1 && $posc >= 0) {
-		return [$posr + 1, $posc + 1];
-	} else if ($posr < $n - 1 && $posr >= 0 && $posc >= 0 && $posc < $n) {
-		return [$posr + 1, $posc];
-	} else if ($posr < $n - 1 && $posr >= 0 && $posc > 0 && $posc < $n) {
-		return [$posr + 1, $posc - 1];
-	} else if ($posc > 0 && $posc < $n && $posr >= 0 && $posr < $n) {
-		return [$posr, $posc - 1];
-	} else if ($posr > 0 && $posr < $n && $posc > 0 && $posc < $n) {
-		return [$posr - 1, $posc - 1];
-	} else if ($posr > 0 && $posr < $n && $posc >= 0 && $posc < $n) {
-		return [$posr - 1, $posc];
-	} else if ($posr > 0 && $posr < $n && $posc < $n - 1 && $posc >= 0) {
-		return [$posr - 1, $posc + 1];
-	} else if ($posc < $n - 1 && $posc >= 0 && $posr >= 0 && $posr < $n) {
-		return [$posr, $posc + 1];
+	switch ($to) {
+		case 'RIGHT':
+			if ($posc < $n - 1 && $posc >= 0 && $posr >= 0 && $posr < $n) {
+				return [$posr, $posc + 1];
+			} else {
+				$to = $nextTo;
+				$nextTo = 'LEFT';
+				return false;
+			}
+
+		case 'LEFT':
+			if ($posc > 0 && $posc < $n && $posr >= 0 && $posr < $n) {
+				return [$posr, $posc - 1];
+			} else {
+				$to = $nextTo;
+				$nextTo = 'RIGHT';
+				return false;
+			}
+
+		case 'DOWN':
+			if ($posr < $n - 1 && $posr >= 0 && $posc >= 0 && $posc < $n) {
+				$to = $nextTo;
+				$nextTo = 'DOWN';
+				return [$posr + 1, $posc];
+			} else {
+				$to = 'UP';
+				$nextTo = $nextTo;
+				return false;
+			}
+
+		case 'UP':
+			if ($posr < $n && $posr > 0 && $posc >= 0 && $posc < $n) {
+				$to = $nextTo;
+				$nextTo = 'UP';
+				return [$posr - 1, $posc];
+			} else {
+				$to = 'DOWN';
+				$nextTo = $nextTo;
+				return false;
+			}
 	}
 
-	return null;
+	return false;
 }
 
 function boardIsClean($board) {
@@ -123,11 +107,13 @@ function next_move(&$posr, &$posc, &$board)
 		$c = $posc;
 		$offset = 1;
 		$direction = 0;
+		$to = 'RIGHT';
+		$nextTo = 'DOWN';
 
 		while (empty($next)) {
 			if ($offset > 1) {
-				$next = canMoveTo($posr, $posc, $board);
-				break;
+				$next = canMove($to, $nextTo, $posr, $posc, $board);
+				continue;
 			}
 
 			if ($c < $n - 1 && $c >= 0 && $r >= 0 && $r < $n) {

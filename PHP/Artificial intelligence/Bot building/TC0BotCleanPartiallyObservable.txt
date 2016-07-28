@@ -1,0 +1,6 @@
+3 4
+ooooo
+ooooo
+ooo--
+ooo-b
+ooo--
