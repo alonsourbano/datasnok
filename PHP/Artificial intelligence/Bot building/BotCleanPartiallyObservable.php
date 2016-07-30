@@ -32,7 +32,6 @@ function findNextDirty($posr, $posc, &$board)
 
 function canMove(&$to, &$nextTo, $posr, $posc, $board)
 {
-	echo "$to, $nextTo\n";
 	$n = count($board);
 
 	switch ($to) {
@@ -107,12 +106,23 @@ function next_move(&$posr, &$posc, &$board)
 		$c = $posc;
 		$offset = 1;
 		$direction = 0;
-		$to = 'RIGHT';
-		$nextTo = 'DOWN';
+		$wh = 'move.txt';
 
 		while (empty($next)) {
 			if ($offset > 1) {
+				if (file_exists($wh)) {
+					$f = file_get_contents($wh);
+					$f = explode('-', $f);
+				}
+				if (!empty($f[0]) && !empty($f[1])) {
+					$to = $f[0];
+					$nextTo = $f[1];
+				} else {
+					$to = 'RIGHT';
+					$nextTo = 'DOWN';
+				}
 				$next = canMove($to, $nextTo, $posr, $posc, $board);
+				file_put_contents($wh, "{$to}-{$nextTo}");
 				continue;
 			}
 
