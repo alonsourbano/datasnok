@@ -8,6 +8,7 @@ class Node {
 	var $r;
 	var $c;
 	var $board;
+	var $root;
 
 	function __construct($r, $c, $board)
 	{
@@ -15,6 +16,7 @@ class Node {
 		$this->c = $c;
 		$this->board = $board;
 		$this->children = [];
+		$this->root = false;
 		$this->distance = 0;
 		$this->level = 0;
 
@@ -41,32 +43,70 @@ class Node {
 
 function next_move(&$posr, &$posc, &$board)
 {
-	$root = new Node($posr, $posc, $board);
-	$q = [$root];
-	while (!empty($q)) {
-		$current = array_shift($q);
-		$dirties = $current->getDirties();
-		foreach ($dirties as $dirty) {
-			$child = new Node($dirty['r'], $dirty['c'], $current->board);
-			$child->distance = $current->distance + abs($dirty['r'] - $current->r) + abs($dirty['c'] - $current->c);
-			$child->level = $current->level + 1;
-			$current->children[] = $child;
-			$q[] = $child;
+	if ($board[intval($posr)][intval($posc)] == 'd') {
+		echo "CLEAN\n";
+	} else {
+		$root = new Node($posr, $posc, $board);
+		$root->root = 7;
+		$q = [$root];
+		while (!empty($q)) {
+			$current = array_shift($q);
+			# Avoid timeout
+			if ($current->level > 4) {
+				continue;
+			}
+			$dirties = $current->getDirties();
+			foreach ($dirties as $dirty) {
+				$child = new Node($dirty['r'], $dirty['c'], $current->board);
+				$child->distance = $current->distance + abs($dirty['r'] - $current->r) + abs($dirty['c'] - $current->c);
+				$child->level = $current->level + 1;
+				if ($current->root === false) {
+					$child->root = [
+						'r' => $current->r,
+						'c' => $current->c
+					];
+				} else if ($current->root != 7) {
+					$child->root = $current->root;
+				}
+				$current->children[] = $child;
+				$q[] = $child;
+			}
+		}
+
+		$q = [$root];
+		$minV = 50;
+		$minP = [];
+		while (!empty($q)) {
+			$current = array_shift($q);
+			if (count($current->children) > 0) {
+				foreach ($current->children as $child) {
+					$q[] = $child;
+				}
+			} else {
+				if ($current->distance < $minV) {
+					$minV = $current->distance;
+					if (empty($current->root)) {
+						$minP = [
+							'r' => $current->r,
+							'c' => $current->c
+						];
+					} else {
+						$minP = $current->root;
+					}
+				}
+			}
+		}
+
+		if ($minP['r'] < $posr) {
+			echo "UP\n";
+		} else if ($minP['c'] > $posc) {
+			echo "RIGHT\n";
+		} else if ($minP['r'] > $posr) {
+			echo "DOWN\n";
+		} else if ($minP['c'] < $posc) {
+			echo "LEFT\n";
 		}
 	}
-
-	$finals = [];
-	$q = [$root];
-	while (!empty($q)) {
-		$current = array_shift($q);
-		if (count($current->children) == 0) {
-			$finals[] = $current;
-		} else {
-			$q[] = $current->children;
-		}
-	}
-
-	print_r($finals);
 }
 
 $fp = fopen("php://stdin", "r");
