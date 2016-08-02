@@ -85,6 +85,9 @@ case "Day29BitwiseAnd" : _ = Day29BitwiseAnd()
 	
 	// World CodeSprint 5
 case "CamelCase" : _ = CamelCase()
+	
+	// HourRank 11
+case "StrangeCounter": _ = StrangeCounter()
 
 default :
 	print("No method found to be executed")

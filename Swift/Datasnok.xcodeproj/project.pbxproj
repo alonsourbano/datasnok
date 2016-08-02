@@ -44,6 +44,7 @@
 		749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD21D225674001FA3A2 /* AngryProfessor.swift */; };
 		749A8AD61D22B873001FA3A2 /* Day0HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */; };
 		749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */; };
+		749DEDFE1D510C4C00BF75F6 /* StrangeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749DEDFD1D510C4C00BF75F6 /* StrangeCounter.swift */; };
 		74B3640C1D32F8E9008776FF /* Day13AbstractClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */; };
 		74B3640E1D33DAFC008776FF /* Day14Scope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3640D1D33DAFC008776FF /* Day14Scope.swift */; };
 		74B364151D344D52008776FF /* SherlockAndArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B364141D344D52008776FF /* SherlockAndArray.swift */; };
@@ -113,6 +114,7 @@
 		749A8AD21D225674001FA3A2 /* AngryProfessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngryProfessor.swift; sourceTree = "<group>"; };
 		749A8AD51D22B873001FA3A2 /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day0HelloWorld.swift; sourceTree = "<group>"; };
 		749A8AD71D22BB77001FA3A2 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1DataTypes.swift; sourceTree = "<group>"; };
+		749DEDFD1D510C4C00BF75F6 /* StrangeCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrangeCounter.swift; sourceTree = "<group>"; };
 		74B3640B1D32F8E9008776FF /* Day13AbstractClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day13AbstractClasses.swift; sourceTree = "<group>"; };
 		74B3640D1D33DAFC008776FF /* Day14Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Scope.swift; sourceTree = "<group>"; };
 		74B364141D344D52008776FF /* SherlockAndArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherlockAndArray.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		743FB9471D442DFE005E9DB1 /* Contests */ = {
 			isa = PBXGroup;
 			children = (
+				749DEDFC1D510BE000BF75F6 /* HourRank 11 */,
 				743FB9481D442E2C005E9DB1 /* World CodeSprint 5 */,
 			);
 			path = Contests;
@@ -297,6 +300,14 @@
 			path = 30DaysOfCode;
 			sourceTree = "<group>";
 		};
+		749DEDFC1D510BE000BF75F6 /* HourRank 11 */ = {
+			isa = PBXGroup;
+			children = (
+				749DEDFD1D510C4C00BF75F6 /* StrangeCounter.swift */,
+			);
+			path = "HourRank 11";
+			sourceTree = "<group>";
+		};
 		74B364111D344D0D008776FF /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,12 +407,12 @@
 				74B364171D355C87008776FF /* Day15LinkedList.swift in Sources */,
 				7435BA5F1D3FB976002081D6 /* Day23BSTLevelOrderTraversal.swift in Sources */,
 				749A8AD31D225674001FA3A2 /* AngryProfessor.swift in Sources */,
-				742874041D48068800CF3800 /* AntiprimeNumbers.swift in Sources */,
 				749A8ACA1D223BE5001FA3A2 /* PlusMinus.swift in Sources */,
 				749A8AC41D2238D2001FA3A2 /* SimpleArraySum.swift in Sources */,
 				749A8ACE1D224411001FA3A2 /* TimeConversion.swift in Sources */,
 				74747A9D1D31EF9D00938968 /* InsertionSortPart1.swift in Sources */,
 				749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */,
+				749DEDFE1D510C4C00BF75F6 /* StrangeCounter.swift in Sources */,
 				7481B2C61D3E6E5A00D1F688 /* Day22BinarySearchTrees.swift in Sources */,
 				747A27D11D412D89002A77BD /* Day24MoreLinkedLists.swift in Sources */,
 				742873F91D47A1F300CF3800 /* Day29BitwiseAnd.swift in Sources */,
@@ -424,7 +435,6 @@
 				74747AA11D3230A600938968 /* SnakesAndLaddersTheQuickestWayUp.swift in Sources */,
 				74747A9F1D31FA8700938968 /* InsertionSortPart2.swift in Sources */,
 				74BD09AB1D37D31E00515F7F /* Day17MoreExceptions.swift in Sources */,
-				742874021D4803B700CF3800 /* ExtremelyDangerousVirus.swift in Sources */,
 				742873F71D47198600CF3800 /* NewYearChaos.swift in Sources */,
 				74E254911D2C319C003F8CDA /* Day8DictionariesAndMaps.swift in Sources */,
 				7435144C1D2F0752004B2F12 /* MinimumDistances.swift in Sources */,
