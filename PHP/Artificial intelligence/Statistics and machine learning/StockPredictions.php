@@ -30,41 +30,85 @@ for ($i = 0; $i < $k; $i++) {
     ];
 }
 
-$n = 0; # Number of performed transactions
-
-# Sell
+# Owned
 $max['owned'] = 0;
 $max['buyed'] = 0;
 $max['itemo'] = [];
 $max['itemb'] = [];
+$max['totalowned'] = 0;
+$max['avgowned'] = 0;
+$max['numowned'] = 0;
 foreach ($s as $item) {
     if ($item['owned'] <= 0) {
         continue;
     }
 
-    $todaysPrice = $item['prices'][count($item['prices']) - 1]; 
+    $todaysPrice = $item['prices'][count($item['prices']) - 1];
+    $tomorrowsPrice = $d > 0 ? $todaysPrice + $item['average'] : 0;
+    $max['totalowned'] += $tomorrowsPrice * $item['owned'];
+    $max['avgowned'] += $todaysPrice * $item['owned'];
+    $max['numowned'] += $item['owned'];
 
-    $maxCurrent = max($todaysPrice * $item['owned'], ($todaysPrice + $item['average']) * $item['owned']);
+    $maxCurrent = max($todaysPrice * $item['owned'], $tomorrowsPrice * $item['owned']);
     $max['owned'] = max($max['owned'], $maxCurrent);
     if ($max['owned'] == $maxCurrent) {
         $max['itemo'] = $item;
     }
 }
 
-# Buy
+if ($max['numowned'] > 0) {
+    $max['avgowned'] /= $max['numowned'];
+}
+
+# Hypothetical buy
 foreach ($s as $item) {
     $todaysPrice = $item['prices'][count($item['prices']) - 1];
+    $tomorrowsPrice = $d > 0 ? $todaysPrice + $item['average'] : 0;
+
     $i = 0;
     while ($todaysPrice * $i <= $m) {
         $i++;
     }
+    $i--;
 
-    $maxCurrent = max($todaysPrice * ($i - 1), ($todaysPrice + $item['average']) * ($i - 1));
+    $maxCurrent = max(($todaysPrice * $i) + ($item['owned'] * $todaysPrice), ($tomorrowsPrice * $i) + ($item['owned'] * $tomorrowsPrice));
     $max['buyed'] = max($max['buyed'], $maxCurrent);
     if ($max['buyed'] == $maxCurrent) {
         $max['itemb'] = $item;
+        $max['numbuyed'] = $i;
     }
 }
-print_r($max);
+
+$t = []; # Performed transactions
+
+# Buy and sell
+if ($max['numbuyed'] > 0 && $max['buyed'] > $max['totalowned']) {
+    # Buy
+    $t[] = "{$max['itemb']['name']} BUY {$max['numbuyed']}\n";
+    
+    if (!empty($max['itemo']) && $max['itemb'] != $max['itemo']) {
+        # Sell
+        $t[] = "{$max['itemo']['name']} SELL {$max['itemo']['owned']}\n";
+    }
+}
+
+# Sell
+foreach ($s as $item) {
+    if ($item['owned'] <= 0) {
+        continue;
+    }
+
+    $todaysPrice = $item['prices'][count($item['prices']) - 1];
+    if ($todaysPrice < $max['avgowned']) {
+        $t[] = "{$item['name']} SELL {$item['owned']}\n";
+    }
+}
+
+echo count($t). "\n";
+if (count($t) > 0) {
+    foreach ($t as $i) {
+        echo $i;
+    }
+}
 
 ?>
