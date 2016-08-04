@@ -32,6 +32,7 @@ case "NewYorkChaos" : _ = NewYearChaos()
 	
 	// Strings
 case "SuperReducedString" : _ = SuperReducedString()
+case "Pangrams" : _ = Pangrams()
 	
 	// Sorting
 case "IntroToTutorialChallenges" : _ = IntroToTutorialChallenges()
