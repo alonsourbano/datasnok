@@ -11,6 +11,7 @@
 		740F85601D39198A00367E91 /* Day18QueuesAndStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */; };
 		741D36F41D53A8AF0040D3E3 /* Pangrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741D36F31D53A8AF0040D3E3 /* Pangrams.swift */; };
 		742279E71D58C51C000F88D2 /* CookieParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742279E61D58C51C000F88D2 /* CookieParty.swift */; };
+		742279E91D58CC96000F88D2 /* MakingPolygons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742279E81D58CC96000F88D2 /* MakingPolygons.swift */; };
 		742873B31D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */; };
 		742873F31D4702A300CF3800 /* LonelyInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873F21D4702A300CF3800 /* LonelyInteger.swift */; };
 		742873F71D47198600CF3800 /* NewYearChaos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742873F61D47198600CF3800 /* NewYearChaos.swift */; };
@@ -80,6 +81,7 @@
 		740F855F1D39198A00367E91 /* Day18QueuesAndStacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day18QueuesAndStacks.swift; sourceTree = "<group>"; };
 		741D36F31D53A8AF0040D3E3 /* Pangrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pangrams.swift; sourceTree = "<group>"; };
 		742279E61D58C51C000F88D2 /* CookieParty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookieParty.swift; sourceTree = "<group>"; };
+		742279E81D58CC96000F88D2 /* MakingPolygons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakingPolygons.swift; sourceTree = "<group>"; };
 		742873B21D465A0C00CF3800 /* Day28RegExPatternsAndIntroToDatabases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day28RegExPatternsAndIntroToDatabases.swift; sourceTree = "<group>"; };
 		742873F21D4702A300CF3800 /* LonelyInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LonelyInteger.swift; sourceTree = "<group>"; };
 		742873F61D47198600CF3800 /* NewYearChaos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewYearChaos.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				742279E61D58C51C000F88D2 /* CookieParty.swift */,
+				742279E81D58CC96000F88D2 /* MakingPolygons.swift */,
 			);
 			path = "Week of code 22";
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				74747A9D1D31EF9D00938968 /* InsertionSortPart1.swift in Sources */,
 				749A8AD81D22BB77001FA3A2 /* Day1DataTypes.swift in Sources */,
 				7481B2C61D3E6E5A00D1F688 /* Day22BinarySearchTrees.swift in Sources */,
+				742279E91D58CC96000F88D2 /* MakingPolygons.swift in Sources */,
 				747A27D11D412D89002A77BD /* Day24MoreLinkedLists.swift in Sources */,
 				742873F91D47A1F300CF3800 /* Day29BitwiseAnd.swift in Sources */,
 				742B0EA41D258ECB004ED1CD /* DivisibleSumPairs.swift in Sources */,
