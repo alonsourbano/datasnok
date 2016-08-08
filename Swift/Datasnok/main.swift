@@ -86,6 +86,9 @@ case "Day29BitwiseAnd" : _ = Day29BitwiseAnd()
 	
 	// World CodeSprint 5
 case "CamelCase" : _ = CamelCase()
+	
+	// Week of code 22
+case "CookieParty" : _ = CookieParty()
 
 default :
 	print("No method found to be executed")
