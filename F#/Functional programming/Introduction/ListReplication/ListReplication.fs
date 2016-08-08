@@ -9,7 +9,7 @@ let solve(s: int, l: int list) =
         for i in 0 .. s - 1 do
             item.ToString() |> printfn "%s"
 
-let rec readLines(l: int list) : int list =
+let rec readLines(l: int list) =
     let input = Console.ReadLine()
     if String.IsNullOrEmpty input then
         l
@@ -19,6 +19,6 @@ let rec readLines(l: int list) : int list =
 [<EntryPoint>]
 let main argv =
     let s = Console.ReadLine() |> int
-    let l = []
-    solve(s, readLines(l))
+
+    solve(s, readLines([]))
     0
