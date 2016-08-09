@@ -89,6 +89,7 @@ case "CamelCase" : _ = CamelCase()
 	
 	// Week of code 22
 case "CookieParty" : _ = CookieParty()
+case "MakingPolygons" : _ = MakingPolygons()
 
 default :
 	print("No method found to be executed")
