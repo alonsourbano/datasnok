@@ -1,0 +1,1 @@
+fsharpc $1.fs && echo "" && echo "Ready" && echo "Executing $1:" && echo "" && mono $1.exe  
