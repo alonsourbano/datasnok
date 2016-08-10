@@ -3,22 +3,15 @@
 open System
 open Microsoft.FSharp.Collections
 
-let rec readLines(l: int list) =
-    let input = Console.ReadLine()
-    if String.IsNullOrEmpty input then
-        l
-    else
-        readLines((input |> int) :: l)
-
 [<EntryPoint>]
 let main argv =
     let x = Console.ReadLine() |> int
-    []
-        |> readLines
-        |> List.rev
+    Seq.initInfinite(fun _ -> Console.ReadLine())
+        |> Seq.takeWhile(fun s -> s |> String.IsNullOrEmpty |> not)
+        |> Seq.map(fun item -> int item)
+        |> Seq.toList
         |> List.iter(fun elem ->
             if elem < x then
                 printfn "%d" elem 
         )
     0
-
