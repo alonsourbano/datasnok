@@ -2,12 +2,11 @@
 
 open System
 
-let solve(n: int) =
-    for i in 1 .. n do
-        printfn "Hello World"
-
 [<EntryPoint>]
 let main argv =
     let n = Console.ReadLine() |> int
-    solve(n)
+    {1 .. n}
+        |> Seq.iter(fun _ ->
+            printfn "Hello World"
+        )
     0
