@@ -3,20 +3,17 @@
 open System
 open Microsoft.FSharp.Collections
 
-let appendToList(n: int, l: int list) =
-    let newList = n :: l
-    newList
+let rec appendToList(n: int, l: int list) =
+    if n = 0 then
+        l
+    else
+        appendToList(n - 1, n :: l)
 
 let f n = //Complete this function
-    let l = []
-    let newList = l
-    for i in 0 .. n - 1 do
-        newList = appendToList(i, newList)
-    l
+    appendToList(n, [])
 
-let main() =
-    let input = Console.ReadLine()
-    let n = int input
+[<EntryPoint>]
+let main argv =
+    let n = Console.ReadLine() |> int
     printfn "%d" (f n).Length
- 
-main()
+    0
