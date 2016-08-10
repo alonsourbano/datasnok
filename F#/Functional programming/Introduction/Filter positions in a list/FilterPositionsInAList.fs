@@ -1,13 +1,14 @@
 // https://www.hackerrank.com/challenges/fp-filter-positions-in-a-list
 
 open System
+open Microsoft.FSharp.Collections
 
 let solve(l: int list) =
-    
-    for i in l.Length - 1 .. -1 .. 0 do
-        let item = l.Item i
+    let newList = List.rev l
+    for i in 0 .. newList.Length - 1 do
+        let item = newList.Item i
         if i % 2 = 1 then
-            i.ToString() |> printfn "%s"
+            item.ToString() |> printfn "%s"
 
 let rec readLines l: int list =
     let input = Console.ReadLine()
