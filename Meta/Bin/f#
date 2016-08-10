@@ -1,1 +1,2 @@
-fsharpc $1.fs && echo "" && echo "Ready" && echo "Executing $1:" && echo "" && mono $1.exe  
+fsharpc --warnaserror+ --consolecolors+ --nologo $1.fs &&
+mono $1.exe
